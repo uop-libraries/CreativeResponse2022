@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVZsOHFRYi8vLy8vQUFBQUtFZVdlcnhkQVVUZXNlTStqcmpMdnlod2EwWm1hMERyT3FnSVNPSGZVT3pWWGNvQ3cyaUZUZnV2QmNpaVFIaElRb003QS9JeHQ2MkhjR3JDYkJrdkNHVUFJZGxpREpnQnZrN3h1aE9PQVhIZlUyQzFaQ3lMcHA2aEgrcTREdWVQekgydEtWL3Vqd0x6cDVUNzZBajR3THZndHZhbGFkb2N4N1lxeW0rckpxVlhCbjdLN0JxWWt0UVB1VzdHSzQvRnJrbWJSUi90djBrV0J6U3dZajcrbzh4SGp2VDNrUGtGY0hPUlZLb3QyaUlMNllyOWhBcUFubUlUUFNheG1pNytDNmVSUFNzVlRkY3VNL0FTRHVnNUp5V1VYMVRyY0c4UEZlZHJuNzVTT2svUm1LRmNFNk5lS2JZVXRDY0lpOWM0bVdkbXYvVjFWZ2NMbkZGM0VOQnllSnExeXdFcTVUcjFJYW9tVGNjTHZ3bVM=
+    delayedInitialization: 0
+    cameraFocusModeSetting: 2
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 4
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 1
+    logLevel: 0
+    version: 10.3.0
+    eulaAcceptedVersions: '{"Values":["","8.6","0.0","8.0","8.1","9.0","9.1","9.2","9.5","10.5","10.8"]}'
+  database:
+    disableModelExtraction: 1
+  shaders:
+    depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
+  playmode:
+    mSequencePath: Assets/SamplesResources/Recordings/area_target.mp4
+    playModeType: 2
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 
