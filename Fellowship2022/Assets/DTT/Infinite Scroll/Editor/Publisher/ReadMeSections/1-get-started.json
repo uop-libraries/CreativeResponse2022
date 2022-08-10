@@ -1,0 +1,11 @@
+﻿{
+  "title": "Infinite Scroll: get started quickly",
+  "text": "[Getting started with the DTT Infinite Scroll asset is as easy as creating an Infinite Scroll GameObject by right clicking in the scene view and navigating to UI/Infinite Scroll. This will create a new Infinite Scroll object in your hierarchy. In this component you can tweak whether you want it to go horizontal or vertical. Then you can add your desired elements in the Content GameObject child and configure the Horizontal or Vertical Layout Group to get your desired result.][Want to dive deeper? Take a look at our documentation:][l]",
+  "links": [
+    {
+      "text": "Open documentation",
+      "url": "Documentation.pdf",
+      "inline": false
+    }
+  ]
+}

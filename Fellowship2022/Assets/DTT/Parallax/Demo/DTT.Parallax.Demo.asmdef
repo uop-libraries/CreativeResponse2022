@@ -1,0 +1,15 @@
+{
+    "name": "DTT.Parallax.Demo",
+    "references": [
+        "GUID:7992d14745839bd469464962922412af"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,11 @@
+﻿{
+  "title": "Parallax: get started quickly",
+  "text": "[To implement a dynamic background within your project, simply add the parallax layer component to an object with a sprite. This component gives you the option to modify the parallax multiplier, whether the layer should move vertically or horizontally, and other options. Then add your layers to the Parallax Manager component.][Want to dive deeper? Take a look at our documentation:][l]",
+  "links": [
+    {
+      "text": "Open documentation",
+      "url": "Documentation.pdf",
+      "inline": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "DTT.Parallax.Editor",
+    "references": [
+        "GUID:1711cb30f577ba1498364a78a6873853",
+        "GUID:b5e078f64d95bba4a8ba03b5b4940114",
+        "GUID:7992d14745839bd469464962922412af"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

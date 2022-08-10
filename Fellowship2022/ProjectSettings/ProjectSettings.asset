@@ -652,7 +652,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: PUBLISHING_TOOLS_ASSET_STORE_RELEASE;PARALLAX_ASSET_STORE_RELEASE;INFINITE_SCROLL_ASSET_STORE_RELEASE
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
