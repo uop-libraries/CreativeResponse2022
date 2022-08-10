@@ -654,6 +654,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     1: PUBLISHING_TOOLS_ASSET_STORE_RELEASE;PARALLAX_ASSET_STORE_RELEASE;INFINITE_SCROLL_ASSET_STORE_RELEASE
+    7: PUBLISHING_TOOLS_ASSET_STORE_RELEASE;INFINITE_SCROLL_ASSET_STORE_RELEASE;PARALLAX_ASSET_STORE_RELEASE
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
