@@ -7,8 +7,11 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Testo.unity
-    guid: d27e0ed671aa37947b681965d6eedbbc
+    path: Assets/Scenes/testo2.unity
+    guid: d090be39e720a3543afefd8ab510388b
   m_configObjects: {}
