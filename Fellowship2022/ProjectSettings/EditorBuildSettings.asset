@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/testo2.unity
     guid: d090be39e720a3543afefd8ab510388b
+  - enabled: 1
+    path: Assets/Scenes/testo.unity
+    guid: 332eefd13c0f00b43b58785074890e2c
   m_configObjects: {}
