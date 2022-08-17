@@ -2294,7 +2294,7 @@ GameObject:
   - component: {fileID: 8065067158758351847}
   - component: {fileID: 1814366717179675539}
   m_Layer: 5
-  m_Name: TestPrefab_Bio
+  m_Name: TestPrefab_Bio(GKM)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
