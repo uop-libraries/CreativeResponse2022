@@ -280,9 +280,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 2083490736}
   - {fileID: 8698976425412703325}
   - {fileID: 1469802083}
-  - {fileID: 2083490736}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -390,7 +390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2419288613473250564, guid: 4065de0580500194bb4675d41c2e085e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2419288613473250564, guid: 4065de0580500194bb4675d41c2e085e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -467,6 +467,10 @@ PrefabInstance:
     - target: {fileID: 2419288613473250565, guid: 4065de0580500194bb4675d41c2e085e, type: 3}
       propertyPath: m_Name
       value: DropdownMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419288613769348057, guid: 4065de0580500194bb4675d41c2e085e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2419288615087055706, guid: 4065de0580500194bb4675d41c2e085e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -579,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2947981523201813129, guid: 357f0655ede329e4faec103543ed3159, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2947981523201813129, guid: 357f0655ede329e4faec103543ed3159, type: 3}
       propertyPath: m_LocalPosition.x
