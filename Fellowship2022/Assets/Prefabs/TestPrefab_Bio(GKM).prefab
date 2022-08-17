@@ -445,7 +445,7 @@ GameObject:
   - component: {fileID: 6710441845122739531}
   m_Layer: 5
   m_Name: Content (1)
-  m_TagString: Untagged
+  m_TagString: Text
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2430,6 +2430,10 @@ PrefabInstance:
     - target: {fileID: 2419288613473250565, guid: 4065de0580500194bb4675d41c2e085e, type: 3}
       propertyPath: m_Name
       value: DropdownMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419288613769348057, guid: 4065de0580500194bb4675d41c2e085e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2419288615087055706, guid: 4065de0580500194bb4675d41c2e085e, type: 3}
       propertyPath: m_AnchorMax.x

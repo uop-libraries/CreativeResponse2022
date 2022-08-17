@@ -424,6 +424,10 @@ PrefabInstance:
         agricultural community in the San Joaquin Delta. Her efforts on the committee
         build a closer Pacific community."
       objectReference: {fileID: 0}
+    - target: {fileID: 6710441845122739542, guid: 44727c6d46ae46745a6d80e0c6575a95, type: 3}
+      propertyPath: m_TagString
+      value: Text
+      objectReference: {fileID: 0}
     - target: {fileID: 6710441846637718224, guid: 44727c6d46ae46745a6d80e0c6575a95, type: 3}
       propertyPath: m_SizeDelta.x
       value: 650.797

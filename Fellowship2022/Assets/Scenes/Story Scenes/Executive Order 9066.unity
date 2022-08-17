@@ -739,6 +739,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8ff707c39860e7e4b9a1c426c44e9b34, type: 3}
+    - target: {fileID: 7086611765615989948, guid: cb44d2e504ca11d4fa7f798188c13e7e, type: 3}
+      propertyPath: m_TagString
+      value: Text
+      objectReference: {fileID: 0}
     - target: {fileID: 7086611765615989949, guid: cb44d2e504ca11d4fa7f798188c13e7e, type: 3}
       propertyPath: m_SizeDelta.y
       value: 715.452

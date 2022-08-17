@@ -145,6 +145,10 @@ PrefabInstance:
         her musician mother, Tome Kaneda, Grayce plans to be a music teacher, sharing
         her family\u2019s tradition."
       objectReference: {fileID: 0}
+    - target: {fileID: 6710441845122739542, guid: 44727c6d46ae46745a6d80e0c6575a95, type: 3}
+      propertyPath: m_TagString
+      value: Text
+      objectReference: {fileID: 0}
     - target: {fileID: 6710441845122739543, guid: 44727c6d46ae46745a6d80e0c6575a95, type: 3}
       propertyPath: m_SizeDelta.y
       value: 332.992
