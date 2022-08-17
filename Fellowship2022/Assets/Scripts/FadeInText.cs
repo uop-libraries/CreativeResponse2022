@@ -21,8 +21,8 @@ public class FadeInText : MonoBehaviour
         // for text mesh pro
         try
         {
+            newColor = text.color;
             text.alpha = 0.0f;
-            newColor.a = 1.0f;
             text.DOColor(newColor, TextDelayTime).SetEase(Ease.Linear);
             
         }

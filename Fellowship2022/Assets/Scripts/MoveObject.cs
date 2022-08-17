@@ -15,16 +15,9 @@ public class MoveObject : MonoBehaviour
     float x, y;
     void Start()
     {
-        try
-        {
-            x = Obj.transform.position.x;
-            y = Obj.transform.position.y;
-            TextSlideIn();
-        }
-        catch (UnassignedReferenceException)
-        {
-            // just in case theres nothing here
-        }
+        x = Obj.transform.position.x;
+        y = Obj.transform.position.y;
+        TextSlideIn();
     }
 
     // In order to give the appearance of text sliding into place, lower the inital y position of the specified
