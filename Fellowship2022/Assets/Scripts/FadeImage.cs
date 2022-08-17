@@ -15,7 +15,7 @@ public class FadeImage : MonoBehaviour
     public float WaitTime = 2f;
     // True = Fade In
     // False = Fade Out
-    public bool InorOut;
+    public bool InorOut = true;
     private Image temp;
 
     private void Start()

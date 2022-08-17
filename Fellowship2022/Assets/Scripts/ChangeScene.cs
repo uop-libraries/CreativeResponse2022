@@ -28,6 +28,10 @@ public class ChangeScene : MonoBehaviour
         // Update value of LastScene to CurrentScene
         SceneManager.LoadScene(LastScene);
     }
+    public void Load_Blank()
+    {
+        SceneManager.LoadScene("Blank");
+    }
     public void Load_Title()
     {
         SceneManager.LoadScene("Title");

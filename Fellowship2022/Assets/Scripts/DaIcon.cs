@@ -6,6 +6,7 @@ using DG.Tweening;
 public class DaIcon : MonoBehaviour
 {
     public GameObject Obj;
+    public float Time;
     float x, y;
 
     void Start()
@@ -13,7 +14,7 @@ public class DaIcon : MonoBehaviour
         x = Obj.transform.position.x;
         y = Obj.transform.position.y;
         // boing boing
-        Obj.transform.DOMove(new Vector2(x, y + (0.05f * y)), 1).SetLoops(-1, LoopType.Yoyo);
+        Obj.transform.DOMove(new Vector2(x, y + (0.05f * y)), Time).SetLoops(-1, LoopType.Yoyo);
     }
 
 
