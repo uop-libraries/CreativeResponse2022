@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 114720380713692834}
   - component: {fileID: 114473711772917894}
   m_Layer: 5
-  m_Name: Dropdown Item
+  m_Name: the brown one
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
