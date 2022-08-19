@@ -9,31 +9,31 @@ EditorBuildSettings:
     path: Assets/Scenes/Story Scenes/Title.unity
     guid: 0efd56606421adc4aa014e41aa925c2e
   - enabled: 1
-    path: Assets/Scenes/Story Scenes/Context.unity
+    path: Assets/Scenes/Story Scenes/Before Scenes/Context.unity
     guid: c71549a835f518c46a9f88e8b26fc118
   - enabled: 1
-    path: Assets/Scenes/Story Scenes/Japanese Club.unity
+    path: Assets/Scenes/Story Scenes/Before Scenes/Japanese Club.unity
     guid: f745c5daae53158479b28caefb2095e3
   - enabled: 1
-    path: Assets/Scenes/Story Scenes/James Doi.unity
+    path: Assets/Scenes/Story Scenes/Before Scenes/James Doi.unity
     guid: cc1fddf7cb42a7e499a051ba3b28f673
   - enabled: 1
-    path: Assets/Scenes/Story Scenes/Grayce Kaneda.unity
+    path: Assets/Scenes/Story Scenes/Before Scenes/Grayce Kaneda.unity
     guid: 50846ecd593787e458ea993920770aef
   - enabled: 1
-    path: Assets/Scenes/Story Scenes/Marie Mizutani.unity
+    path: Assets/Scenes/Story Scenes/Before Scenes/Marie Mizutani.unity
     guid: 1c32920c2cd664649ab0b7c9910aebc6
   - enabled: 1
-    path: Assets/Scenes/Story Scenes/George Akimoto.unity
+    path: Assets/Scenes/Story Scenes/Before Scenes/George Akimoto.unity
     guid: b6f2d78f126f0784d8c87c80aff37580
   - enabled: 1
-    path: Assets/Scenes/Story Scenes/Mary Yamashita.unity
+    path: Assets/Scenes/Story Scenes/Before Scenes/Mary Yamashita.unity
     guid: 0c8a53c230cfa904c9f890389542757d
   - enabled: 1
-    path: Assets/Scenes/Story Scenes/Toshio and Kei Kaneda.unity
+    path: Assets/Scenes/Story Scenes/Before Scenes/Toshio and Kei Kaneda.unity
     guid: 59b0819373c4a99489bd5ac3db173c8d
   - enabled: 1
-    path: Assets/Scenes/Story Scenes/Executive Order 9066.unity
+    path: Assets/Scenes/Story Scenes/Before Scenes/Executive Order 9066.unity
     guid: ac8e4304b239c544e8cb0175d775638c
   - enabled: 1
     path: Assets/Scenes/Story Scenes/Options.unity
@@ -41,4 +41,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story Scenes/Blank.unity
     guid: f80c26f29049e1b488f6ddf387754944
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/Splash Page.unity
+    guid: 1f5942fa281ac894faf2ee96de364d21
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity
+    guid: 73bc2e6908081794f9f7ddb774e48d54
   m_configObjects: {}

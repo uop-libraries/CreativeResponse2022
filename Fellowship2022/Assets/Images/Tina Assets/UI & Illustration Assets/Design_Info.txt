@@ -1,0 +1,54 @@
+DESIGN INFORMATION
+
+Stuff is on Discord too but it ain't organized
+
+For reference, go to Adobe XD thing pls:
+https://xd.adobe.com/view/cfae5081-01eb-4748-a35a-fefc5997b9ac-9afd/
+
+-----------------
+
+FONT INFO
+
+Main Heading: 
+- Futura Book (40) for context pages
+- Futura Book (32) for people bio
+
+Subheading:
+- Futura Book (24)
+
+Body:
+- Futura Book (16) for default
+- Futura Medium (16) for key terms/names
+
+-----------------
+
+HEX CODES
+
+Main Pages:
+- Background -- #253D58
+- Red Details -- #DB5331
+
+BEFORE Section:
+- Splash Cover -- #B9A590
+- Pages -- #D2CAC1
+- Borders -- #B8A28B
+- Buttons & Text -- #373737
+- Red Details -- #DB5331
+
+DURING Section:
+- Splash Cover -- #182A3E
+- Pages -- #182A3E 
+- Borders -- #FFFFFF
+- Buttons & Text -- #FFFFFF
+- Red Details -- #DB5331
+
+AFTER Section:
+DURING Section:
+- Splash Cover -- #253D58
+- Secondary BG -- #324C6A
+- Pages -- #253D58 
+- Borders -- #FFFFFF
+- Buttons & Text -- #FFFFFF
+- Red Details -- #DB5331
+
+-----------------
