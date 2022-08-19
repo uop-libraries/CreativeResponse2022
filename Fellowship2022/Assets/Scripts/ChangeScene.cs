@@ -80,7 +80,9 @@ public class ChangeScene : MonoBehaviour
         LastScene = CurrentScene;
         SceneManager.LoadScene("Executive order 9066");
     }
-
+    
+    /// transition to during ///
+    
     public void Load_Splash()
     {
         LastScene = CurrentScene;
