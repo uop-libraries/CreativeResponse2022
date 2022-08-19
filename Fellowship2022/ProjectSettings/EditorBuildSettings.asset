@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story Scenes/During Scenes/Splash Page.unity
     guid: 1f5942fa281ac894faf2ee96de364d21
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity
+    guid: 73bc2e6908081794f9f7ddb774e48d54
   m_configObjects: {}

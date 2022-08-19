@@ -394,7 +394,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5709252418316686928}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_JamesDoi
+        m_MethodName: Load_Assembly
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
