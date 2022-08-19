@@ -80,4 +80,10 @@ public class ChangeScene : MonoBehaviour
         LastScene = CurrentScene;
         SceneManager.LoadScene("Executive order 9066");
     }
+
+    public void Load_Splash()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Splash Page");
+    }
 }

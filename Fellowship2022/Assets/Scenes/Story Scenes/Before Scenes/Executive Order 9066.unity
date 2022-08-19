@@ -822,9 +822,9 @@ MonoBehaviour:
   clickEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 758695072200405621, guid: cbbb853e04c5c7249a15d4463a117ef0, type: 3}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Load_Splash
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
