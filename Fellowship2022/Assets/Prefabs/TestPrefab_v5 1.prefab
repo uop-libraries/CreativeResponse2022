@@ -349,7 +349,6 @@ GameObject:
   - component: {fileID: 6863021338344768239}
   - component: {fileID: 417869192166444119}
   - component: {fileID: 4403813074901083405}
-  - component: {fileID: 5367150401800376485}
   m_Layer: 5
   m_Name: Icon Image
   m_TagString: Untagged
@@ -414,22 +413,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5367150401800376485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570803801137795548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c781f61efd2b4c43857bee5d24ad65e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Object: {fileID: 1570803801137795548}
-  FadeTime: 1.5
-  WaitTime: 2
-  InorOut: 1
 --- !u!1 &5659554139103085601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,6 +1110,7 @@ GameObject:
   - component: {fileID: 5659554139584290187}
   - component: {fileID: 5659554139584290186}
   - component: {fileID: 5659554139584290180}
+  - component: {fileID: 1087309582572843774}
   m_Layer: 5
   m_Name: Sample Image (2)
   m_TagString: Untagged
@@ -1207,6 +1191,20 @@ MonoBehaviour:
   FadeTime: 1.5
   WaitTime: 2
   InorOut: 1
+--- !u!114 &1087309582572843774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5659554139584290184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e423cd416cbd04e87985e2b9e23b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obj: {fileID: 5659554139584290184}
+  DelayTime: 0
 --- !u!1 &5659554139753686302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1820,6 +1818,7 @@ GameObject:
   - component: {fileID: 5659554140284011039}
   - component: {fileID: 5659554140284011038}
   - component: {fileID: 4426744516580362360}
+  - component: {fileID: 9036219171536189809}
   m_Layer: 5
   m_Name: Sample Image (1)
   m_TagString: Untagged
@@ -1900,6 +1899,20 @@ MonoBehaviour:
   FadeTime: 1.5
   WaitTime: 2
   InorOut: 1
+--- !u!114 &9036219171536189809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5659554140284011036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e423cd416cbd04e87985e2b9e23b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obj: {fileID: 5659554140284011036}
+  DelayTime: 0
 --- !u!1 &5659554140523922355
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,7 +2632,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5659554141131937333}
-  - component: {fileID: 5659554141131937334}
   m_Layer: 5
   m_Name: Images
   m_TagString: Untagged
@@ -2649,20 +2661,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00074768, y: 0.0093384}
   m_SizeDelta: {x: 1080, y: 2340}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5659554141131937334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5659554141131937332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6e423cd416cbd04e87985e2b9e23b7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Obj: {fileID: 5659554141131937332}
-  DelayTime: 0
 --- !u!1 &5659554141214377041
 GameObject:
   m_ObjectHideFlags: 0
