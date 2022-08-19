@@ -833,7 +833,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 1
   hoverEvent:
     m_PersistentCalls:
       m_Calls: []
