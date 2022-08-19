@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Executive Order 9066.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Executive Order 9066.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/El Joaquin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/El Joaquin.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Goodbye Assembly.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Goodbye Assembly.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Splash Page.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Splash Page.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -71,6 +70,7 @@
       <workItem from="1660929603956" duration="1297000" />
       <workItem from="1660941818602" duration="302000" />
       <workItem from="1660944024762" duration="53000" />
+      <workItem from="1660946205551" duration="479000" />
     </task>
     <servers />
   </component>

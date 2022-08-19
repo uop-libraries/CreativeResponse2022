@@ -86,6 +86,7 @@ public class ChangeScene : MonoBehaviour
     public void Load_Splash()
     {
         LastScene = CurrentScene;
+        Debug.Log("opening splash page");
         SceneManager.LoadScene("Splash Page");
     }
 
