@@ -213,6 +213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3410379461118354191}
     m_Modifications:
+    - target: {fileID: 5037669316976859209, guid: 56d868c119d75094a832b62ff4810d3f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5037669318048518470, guid: 56d868c119d75094a832b62ff4810d3f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1404,7 +1408,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3091797913039699233}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_MarieMizutani
+        m_MethodName: Load_ElJoaquin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

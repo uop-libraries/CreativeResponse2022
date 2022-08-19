@@ -92,4 +92,41 @@ public class ChangeScene : MonoBehaviour
         LastScene = CurrentScene;
         SceneManager.LoadScene("Stockton Assembly Center");
     }
+
+    public void Load_Goodbye()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Goodbye Assembly");
+    }
+
+    public void Load_ElJoaquin()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("El Joaquin");
+    }
+
+    public void Load_TrainPartOne()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Train to Rohwer (P1)");
+    }
+
+    public void Load_TrainPartTwo()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Train to Rohwer (P2)");
+    }
+    
+    public void Load_TrainPartThree()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Train to Rohwer (P3)");
+    }
+    
+    public void Load_Rohwer()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Rohwer");
+    }
+
 }
