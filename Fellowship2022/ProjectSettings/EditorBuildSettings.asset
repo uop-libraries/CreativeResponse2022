@@ -56,4 +56,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story Scenes/During Scenes/Train to Rohwer (P1).unity
     guid: 6bc2e89f0cd3d6447b456fa6df4aa1ed
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/El Joaquin Article (1).unity
+    guid: 6492addbfd1514c4485f7dcf72a5d80d
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/El Joaquin Article (2).unity
+    guid: 29022fe1079131e459c4ba34f741ba0a
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/El Joaquin Article (3).unity
+    guid: 553e87aece86ea8488000c33cbdcd58e
   m_configObjects: {}

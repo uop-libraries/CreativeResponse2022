@@ -361,6 +361,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3681476959153716766}
     m_Modifications:
+    - target: {fileID: 3455999530093831944, guid: 26ef972e74159a744a268a44b56af226, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3455999531169623559, guid: 26ef972e74159a744a268a44b56af226, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -3093,7 +3097,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: marr E
+  m_text: "Marie, the efficient dance committee organizer, puts down the posters
+    and thanks George Akimoto, club historian and Pacific Weeklycartoonist, for advertising
+    the dance. Marie\u2019s from Walnut Grove, a close-knit Japanese American agricultural
+    community in the San Joaquin Delta. Her efforts on the committee build a closer
+    Pacific community."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -3318,7 +3326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 61018b5a09d17064b9c61d14c2e6092d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7788149c610b15a48929dc55ee9ea0df, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
