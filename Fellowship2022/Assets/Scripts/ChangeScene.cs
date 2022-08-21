@@ -171,24 +171,6 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("El Joaquin Article (3)");
     }
 
-    public void Load_TrainPartOne()
-    {
-        LastScene = CurrentScene;
-        SceneManager.LoadScene("Train to Rohwer (P1)");
-    }
-
-    public void Load_TrainPartTwo()
-    {
-        LastScene = CurrentScene;
-        SceneManager.LoadScene("Train to Rohwer (P2)");
-    }
-    
-    public void Load_TrainPartThree()
-    {
-        LastScene = CurrentScene;
-        SceneManager.LoadScene("Train to Rohwer (P3)");
-    }
-    
     public void Load_Rohwer()
     {
         LastScene = CurrentScene;

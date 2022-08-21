@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI Borders/Border UI (the one with triangles).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI Borders/Border UI (the one with triangles).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Context.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Context.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Executive Order 9066.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Executive Order 9066.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/George Akimoto.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/George Akimoto.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Grayce Kaneda.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Grayce Kaneda.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/James Doi.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/James Doi.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Japanese Club.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Japanese Club.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Marie Mizutani.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Marie Mizutani.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Mary Yamashita.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Mary Yamashita.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Toshio and Kei Kaneda.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Toshio and Kei Kaneda.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Title.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Title.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/El Joaquin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/El Joaquin.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Goodbye Assembly.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Goodbye Assembly.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +73,7 @@
       <workItem from="1660946205551" duration="479000" />
       <workItem from="1661113846023" duration="1439000" />
       <workItem from="1661116698148" duration="3821000" />
-      <workItem from="1661122977055" duration="749000" />
+      <workItem from="1661122977055" duration="1354000" />
     </task>
     <servers />
   </component>
