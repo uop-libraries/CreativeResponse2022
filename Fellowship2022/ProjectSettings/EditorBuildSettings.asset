@@ -65,4 +65,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story Scenes/During Scenes/El Joaquin Article (3).unity
     guid: 553e87aece86ea8488000c33cbdcd58e
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/Rohwer.unity
+    guid: 04e133de28ab74443aa75c77e1c159cd
+
   m_configObjects: {}
