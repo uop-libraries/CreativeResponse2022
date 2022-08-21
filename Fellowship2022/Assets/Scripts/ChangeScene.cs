@@ -7,33 +7,84 @@ public class ChangeScene : MonoBehaviour
 {
     private static string LastScene;
     private static string CurrentScene;
-    // LastScene should be set to CurrentScene when loading a page that convenes after different options.
+    private int sceneIndex;
+    void Start()
+    {
+        sceneIndex = SceneManager.GetActiveScene().buildIndex;
+    }
+
     void Awake()
     {
-        // CurrentScene to what we're currently on
         CurrentScene = SceneManager.GetActiveScene().name;
-        //Debug.Log("current scene: " + CurrentScene);
-        //Debug.Log("last scene: " + LastScene);
-        //Debug.Log("last last scene: " + LastLastScene);
         if (LastScene == null)
         {
             LastScene = CurrentScene;
         }
     }
 
-    // This function should only be set to the back button on a convening page after given different options,
-    // the decision tree page, and the option page.
-    public void LastVisitedScene()
+    void Update()
+    {
+        Debug.Log("Current Scene Index: " + sceneIndex);
+    }
+    
+    //NOTE: DO NOT USE THIS METHOD FOR THE BACK BUTTON ON OPTIONS. ONLY USE THIS FOR ANYTHING BUT OPTIONS
+    public void ReturnToPrev() //TODO include more of the branching statements here when necessary
+    {
+        if (sceneIndex == 2)
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene("Title");
+        }
+        else if (sceneIndex == 4 || sceneIndex == 5 || sceneIndex == 6) //brawn jame, grayce, marie
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene("Japanese Club");
+        }
+        else if (sceneIndex == 8 || sceneIndex == 9 || sceneIndex == 10) //george, mary, toshio & kei
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene("Pacific Weekly");
+        }
+        else //everything else
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene(sceneIndex - 1);
+        }
+    }
+
+    public void GoForward()
+    {
+        if (sceneIndex == 0) //title
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene(sceneIndex + 2);
+        }
+        else if (sceneIndex == 4 || sceneIndex == 5 || sceneIndex == 6) //brawn jame, grayce, marie
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene("Pacific Weekly");
+        }
+        else if (sceneIndex == 8 || sceneIndex == 9 || sceneIndex == 10) //george, mary, toshio & kei
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene("Executive Order 9066");
+        }
+        else //everything else
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene(sceneIndex + 1);
+        }
+    }
+
+    // LastScene should be set to CurrentScene when loading a page that convenes after different options.
+    public void LastVisitedScene() //NOTE: ONLY USE THIS FOR OPTIONS!!!
     {
         // Update value of LastScene to CurrentScene
         SceneManager.LoadScene(LastScene);
     }
-    public void Load_Blank()
-    {
-        SceneManager.LoadScene("Blank");
-    }
     public void Load_Title()
     {
+        LastScene = CurrentScene;
         SceneManager.LoadScene("Title");
     }
     public void Load_Options()
@@ -43,50 +94,47 @@ public class ChangeScene : MonoBehaviour
     }
     // When the user enters the decision tree, save the last scene they were just in so they can go back to it when they 
     // press back.
-    public void Load_Context()
-    {
-        SceneManager.LoadScene("Context");
-    }
-    public void Load_JapaneseClub()
-    {
-        SceneManager.LoadScene("Japanese Club");
-    }
-    public void Load_JamesDoi()
-    {
-        SceneManager.LoadScene("James Doi");
-    }
-    public void Load_GrayceKaneda()
-    {
-        SceneManager.LoadScene("Grayce Kaneda");
-    }
-    public void Load_MarieMizutani()
-    {
-        SceneManager.LoadScene("Marie Mizutani");
-    }
-    public void Load_GeorgeAkimoto()
-    {
-        SceneManager.LoadScene("George Akimoto");
-    }
-    public void Load_MaryYamashita()
-    {
-        SceneManager.LoadScene("Mary Yamashita");
-    }
-    public void Load_ToshioKei()
-    {
-        SceneManager.LoadScene("Toshio and Kei Kaneda");
-    }
-    public void Load_ExecOrder()
+    //these are explicitly for those that are branching
+    public void Load_Grayce()
     {
         LastScene = CurrentScene;
-        SceneManager.LoadScene("Executive order 9066");
+        SceneManager.LoadScene("Grayce Kaneda");
     }
-    
+
+    public void Load_Marie()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Marie Mizutani");
+    }
+
+    public void Load_JapaneseClub()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Japanese Club");
+    }
+
+    public void Load_PacificWeekly()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Pacific Weekly");
+    }
+
+    public void Load_MaryYamashita()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Mary Yamashita");
+    }
+
+    public void Load_ToshioKei()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Toshio and Kei Kaneda");
+    }
     /// transition to during ///
     
     public void Load_Splash()
     {
         LastScene = CurrentScene;
-        Debug.Log("opening splash page");
         SceneManager.LoadScene("Splash Page");
     }
 
@@ -123,28 +171,9 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("El Joaquin Article (3)");
     }
 
-    public void Load_TrainPartOne()
-    {
-        LastScene = CurrentScene;
-        SceneManager.LoadScene("Train to Rohwer (P1)");
-    }
-
-    public void Load_TrainPartTwo()
-    {
-        LastScene = CurrentScene;
-        SceneManager.LoadScene("Train to Rohwer (P2)");
-    }
-    
-    public void Load_TrainPartThree()
-    {
-        LastScene = CurrentScene;
-        SceneManager.LoadScene("Train to Rohwer (P3)");
-    }
-    
     public void Load_Rohwer()
     {
         LastScene = CurrentScene;
         SceneManager.LoadScene("Rohwer");
     }
-
 }
