@@ -542,7 +542,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 907d2abe76f124d49b15c0bc51d5ce16, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -759,7 +759,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: the brawn jame
+  m_text: "James, Richard, and Frank Doi aren\u2019t brothers but they were inseparable
+    in high school. Jimmie balanced farming and homeschool before attending Stockton
+    High; now he\u2019s headed to Berkeley for his PhD. Frank and Richard are going
+    too. Mary Yamashita, Jimmie\u2019s friend, will study another year here and edit
+    the Pacific Weekly."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
