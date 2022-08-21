@@ -886,7 +886,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 181192059897848254}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_JapaneseClub
+        m_MethodName: ReturnToPrev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1694,7 +1694,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 181192059897848254}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_ExecOrder
+        m_MethodName: GoForward
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -566,7 +566,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6018710159179379129}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_GrayceKaneda
+        m_MethodName: Load_Grayce
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -623,7 +623,7 @@ GameObject:
   - component: {fileID: 857428809266225874}
   - component: {fileID: 857428809266225873}
   m_Layer: 5
-  m_Name: Button Option (2)
+  m_Name: grayce
   m_TagString: Untagged
   m_Icon: {fileID: 2800000, guid: 98d001ce6b3b53242911dcc3d1415f59, type: 3}
   m_NavMeshLayer: 0
@@ -1003,7 +1003,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6018710159179379129}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_MarieMizutani
+        m_MethodName: Load_Marie
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1060,7 +1060,7 @@ GameObject:
   - component: {fileID: 857428809846487406}
   - component: {fileID: 857428809846487405}
   m_Layer: 5
-  m_Name: Button Option (3)
+  m_Name: marie
   m_TagString: Untagged
   m_Icon: {fileID: 2800000, guid: 98d001ce6b3b53242911dcc3d1415f59, type: 3}
   m_NavMeshLayer: 0
@@ -1425,7 +1425,7 @@ GameObject:
   - component: {fileID: 1696566939576079433}
   - component: {fileID: 1696566939576079438}
   m_Layer: 5
-  m_Name: Button Option (1)
+  m_Name: james
   m_TagString: Untagged
   m_Icon: {fileID: 2800000, guid: 98d001ce6b3b53242911dcc3d1415f59, type: 3}
   m_NavMeshLayer: 0
@@ -1560,7 +1560,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6018710159179379129}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_JamesDoi
+        m_MethodName: GoForward
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3016,7 +3016,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6018710159179379129}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_Context
+        m_MethodName: ReturnToPrev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
