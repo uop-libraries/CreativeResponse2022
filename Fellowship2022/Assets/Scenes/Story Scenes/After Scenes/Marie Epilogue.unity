@@ -375,6 +375,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2350552336633170736, guid: 383635a232ca7324da50a4b52d6251ad, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 383635a232ca7324da50a4b52d6251ad, type: 3}
 --- !u!224 &1523664572 stripped
@@ -1513,7 +1517,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3270839127296353449}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_MarieMizutani
+        m_MethodName: GoForward
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

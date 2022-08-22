@@ -1049,7 +1049,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2493556730610374563}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: ReturnToPrev
+        m_MethodName: Load_Yearbook
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
