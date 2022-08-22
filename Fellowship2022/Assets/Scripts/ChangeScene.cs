@@ -175,4 +175,20 @@ public class ChangeScene : MonoBehaviour
         LastScene = CurrentScene;
         SceneManager.LoadScene("Personal Experiences");
     }
+
+    public void Load_RohwerOutpostArticle1()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Rohwer Outpost Article (1)");
+    }
+    public void Load_RohwerOutpostArticle2()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Rohwer Outpost Article (2)");
+    }
+    public void Load_RohwerOutpostArticle3()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Rohwer Outpost Article (3)");
+    }
 }
