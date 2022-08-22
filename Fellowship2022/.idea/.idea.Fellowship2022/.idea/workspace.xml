@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +80,7 @@
       <workItem from="1661130233190" duration="715000" />
       <workItem from="1661132723638" duration="5236000" />
       <workItem from="1661185041357" duration="1000" />
+      <workItem from="1661190631078" duration="658000" />
     </task>
     <servers />
   </component>
