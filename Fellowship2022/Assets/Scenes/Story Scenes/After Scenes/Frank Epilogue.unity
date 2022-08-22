@@ -1089,22 +1089,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &3655921606021518436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3655921606021518442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c781f61efd2b4c43857bee5d24ad65e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Object: {fileID: 3655921606021518442}
-  FadeTime: 1.5
-  WaitTime: 2
-  InorOut: 1
 --- !u!114 &3655921606021518437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1154,7 +1138,6 @@ GameObject:
   - component: {fileID: 3655921606021518443}
   - component: {fileID: 3655921606021518438}
   - component: {fileID: 3655921606021518437}
-  - component: {fileID: 3655921606021518436}
   m_Layer: 5
   m_Name: Icon Image
   m_TagString: Untagged

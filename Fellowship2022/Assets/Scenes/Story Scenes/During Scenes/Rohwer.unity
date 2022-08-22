@@ -1849,7 +1849,6 @@ GameObject:
   - component: {fileID: 6424005263371249428}
   - component: {fileID: 275967089882556844}
   - component: {fileID: 4252950434391507190}
-  - component: {fileID: 5504258087892350302}
   m_Layer: 5
   m_Name: Icon Image
   m_TagString: Untagged
@@ -2883,22 +2882,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5504258087892350302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1428875798020502567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c781f61efd2b4c43857bee5d24ad65e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Object: {fileID: 1428875798020502567}
-  FadeTime: 1.5
-  WaitTime: 2
-  InorOut: 1
 --- !u!212 &5692658447525021704
 SpriteRenderer:
   m_ObjectHideFlags: 0
