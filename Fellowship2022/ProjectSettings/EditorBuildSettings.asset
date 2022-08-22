@@ -90,6 +90,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Story Scenes/During Scenes/End of WW2.unity
     guid: 8edbb4f16eed170438df01b792fef11a
   - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/The War Do Be Over.unity
+    guid: 5c6b645c94bcc3946ac1ff96968c66c5
+  - enabled: 1
     path: Assets/Scenes/Story Scenes/During Scenes/El Joaquin Article (1).unity
     guid: 6492addbfd1514c4485f7dcf72a5d80d
   - enabled: 1

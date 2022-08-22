@@ -1614,7 +1614,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1866892912978077235}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_GrayceKaneda
+        m_MethodName: Load_EndWar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
