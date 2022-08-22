@@ -55,6 +55,12 @@ public class ChangeScene : MonoBehaviour
             LastScene = CurrentScene;
             SceneManager.LoadScene("Personal Experiences");
         }
+        else if (sceneIndex == 37 || sceneIndex == 29 || sceneIndex == 30 || sceneIndex == 31 ||
+                 sceneIndex == 32 || sceneIndex == 32 || sceneIndex == 33 || sceneIndex == 34 ||
+                 sceneIndex == 35 || sceneIndex == 36) //basically every student epilogue
+        {
+            Load_Yearbook();
+        }
         else //everything else
         {
             LastScene = CurrentScene;
@@ -84,6 +90,12 @@ public class ChangeScene : MonoBehaviour
             LastScene = CurrentScene;
             SceneManager.LoadScene("End of WW2");
         }
+        else if (sceneIndex == 37 || sceneIndex == 29 || sceneIndex == 30 || sceneIndex == 31 ||
+                 sceneIndex == 32 || sceneIndex == 32 || sceneIndex == 33 || sceneIndex == 34 ||
+                 sceneIndex == 35 || sceneIndex == 36) //basically every student epilogue
+        {
+            Load_Redress();
+        }
         else //everything else
         {
             LastScene = CurrentScene;
@@ -109,7 +121,9 @@ public class ChangeScene : MonoBehaviour
     }
     // When the user enters the decision tree, save the last scene they were just in so they can go back to it when they 
     // press back.
-    //these are explicitly for those that are branching
+    
+    //these are explicitly for those that are branching/acting stupid
+    //before
     public void Load_Grayce()
     {
         LastScene = CurrentScene;
@@ -282,5 +296,26 @@ public class ChangeScene : MonoBehaviour
     {
         LastScene = CurrentScene;
         SceneManager.LoadScene("Grayce Epilogue");
+    }
+    public void Load_Yearbook()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("After War and Camps");
+    }
+    public void Load_Redress()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Redress");
+    }
+
+    public void Load_Credits()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Credits");
+    }
+
+    public void ExitApp()
+    {
+        Application.Quit();
     }
 }
