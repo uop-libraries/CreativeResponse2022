@@ -41,9 +41,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story Scenes/Before Scenes/Executive Order 9066.unity
     guid: ac8e4304b239c544e8cb0175d775638c
-  - enabled: 0
-    path: Assets/Scenes/Story Scenes/Blank.unity
-    guid: f80c26f29049e1b488f6ddf387754944
   - enabled: 1
     path: Assets/Scenes/Story Scenes/During Scenes/Splash Page.unity
     guid: 1f5942fa281ac894faf2ee96de364d21
@@ -90,6 +87,48 @@ EditorBuildSettings:
     path: Assets/Scenes/Story Scenes/During Scenes/End of WW2.unity
     guid: 8edbb4f16eed170438df01b792fef11a
   - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/The War Do Be Over.unity
+    guid: 5c6b645c94bcc3946ac1ff96968c66c5
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Frank Epilogue.unity
+    guid: 1a56b9025c7bdac4fa95f2cdf65855be
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Kei Epilogue.unity
+    guid: 575f2a2f883f61f45b9f6e485f7bfae6
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Mary Epilogue.unity
+    guid: 1f32160f5bef3b04595c78270620c02a
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/James Epilogue.unity
+    guid: f7f26c1be0e22574b8be48d43c814e1d
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/George Epilogue.unity
+    guid: 53fe3507e7855824eb7990f1d3a43129
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Richard Epilogue.unity
+    guid: fd4cf69351f49a34fa7bb254536a1552
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Toshio Epilogue.unity
+    guid: 3660fe46b650aed4e9e3ab38838e4c6d
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Marie Epilogue.unity
+    guid: 8927e05d9497fcc4b97a05d9c0f41fe5
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Grayce Epilogue.unity
+    guid: 3664f521f0709e34eb462917886389aa
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Redress.unity
+    guid: 536d62c88db582b4ca2b4850cc5f71a0
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Acknowledgements.unity
+    guid: ba55938a018016d428f167fd26131357
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Releasing the Lanterns.unity
+    guid: 61f1dce655205c14189be8f4a3552528
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/Credits.unity
+    guid: 32e9e7ff6dd25b540997a2b55ffd54cc
+  - enabled: 1
     path: Assets/Scenes/Story Scenes/During Scenes/El Joaquin Article (1).unity
     guid: 6492addbfd1514c4485f7dcf72a5d80d
   - enabled: 1
@@ -107,4 +146,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story Scenes/During Scenes/Rohwer Outpost Article (3).unity
     guid: 91ff122749c47a34eb5c715c84567963
+  - enabled: 0
+    path: Assets/Scenes/Story Scenes/Blank.unity
+    guid: f80c26f29049e1b488f6ddf387754944
   m_configObjects: {}

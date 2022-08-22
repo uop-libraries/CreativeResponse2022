@@ -45,10 +45,15 @@ public class ChangeScene : MonoBehaviour
             LastScene = CurrentScene;
             SceneManager.LoadScene("Pacific Weekly");
         }
-        else if (sceneIndex == 20 || sceneIndex == 21 || sceneIndex == 22)
+        else if (sceneIndex == 20 || sceneIndex == 21 || sceneIndex == 22) //outpost, nono, personal 
         {
             LastScene = CurrentScene;
             SceneManager.LoadScene("Rohwer");
+        }
+        else if (sceneIndex == 23 || sceneIndex == 24 || sceneIndex == 25) //education, commitments, recreational
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene("Personal Experiences");
         }
         else //everything else
         {
@@ -62,7 +67,7 @@ public class ChangeScene : MonoBehaviour
         if (sceneIndex == 0) //title
         {
             LastScene = CurrentScene;
-            SceneManager.LoadScene(sceneIndex + 2);
+            SceneManager.LoadScene("Context");
         }
         else if (sceneIndex == 4 || sceneIndex == 5 || sceneIndex == 6) //brawn jame, grayce, marie
         {
@@ -73,6 +78,11 @@ public class ChangeScene : MonoBehaviour
         {
             LastScene = CurrentScene;
             SceneManager.LoadScene("Executive Order 9066");
+        }
+        else if (sceneIndex == 23 || sceneIndex == 24 || sceneIndex == 25) //education, commitments, recreational
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene("End of WW2");
         }
         else //everything else
         {
@@ -135,8 +145,16 @@ public class ChangeScene : MonoBehaviour
         LastScene = CurrentScene;
         SceneManager.LoadScene("Toshio and Kei Kaneda");
     }
+
+    public void Load_Splash()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Splash Page");
+    }
+
+    ////////////////////////////
     /// transition to during ///
-    
+    ////////////////////////////
     public void Load_Goodbye()
     {
         LastScene = CurrentScene;
@@ -176,6 +194,30 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("Personal Experiences");
     }
 
+    public void Load_Commit()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("CommitAndResp");
+    }
+    
+    public void Load_Recreational()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Recreational");
+    }
+    
+    public void Load_Rohwer()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Rohwer");
+    }
+
+    public void Load_EndWar()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("End of WW2");
+    }
+
     public void Load_RohwerOutpostArticle1()
     {
         LastScene = CurrentScene;
@@ -190,5 +232,55 @@ public class ChangeScene : MonoBehaviour
     {
         LastScene = CurrentScene;
         SceneManager.LoadScene("Rohwer Outpost Article (3)");
+    }
+    
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /// after section ////////////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    public void Load_FrankEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Frank Epilogue");
+    }
+    public void Load_KeiEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Kei Epilogue");
+    }
+    public void Load_MaryEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Mary Epilogue");
+    }
+    public void Load_JamesEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("James Epilogue");
+    }
+    public void Load_ToshioEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Toshio Epilogue");
+    }
+    public void Load_GeorgeEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("George Epilogue");
+    }
+    public void Load_RichardEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Richard Epilogue");
+    }
+    public void Load_MarieEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Marie Epilogue");
+    }
+    public void Load_GrayceEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Grayce Epilogue");
     }
 }
