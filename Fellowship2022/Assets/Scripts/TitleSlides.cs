@@ -24,11 +24,22 @@ public class TitleSlides : MonoBehaviour
         while (true)
         {
             slides.sprite = pic1;
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(3);
+            slides.CrossFadeAlpha(0,1,false);
+            yield return new WaitForSeconds(1);
+            slides.CrossFadeAlpha(1,1,false);
             slides.sprite = pic2;
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(3);
+            
+            slides.CrossFadeAlpha(0,1,false);
+            yield return new WaitForSeconds(1);
+            slides.CrossFadeAlpha(1,1,false);
             slides.sprite = pic3;
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(3);
+            
+            slides.CrossFadeAlpha(0,1,false);
+            yield return new WaitForSeconds(1);
+            slides.CrossFadeAlpha(1,1,false);
         }
     }
 }
