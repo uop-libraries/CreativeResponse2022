@@ -78,6 +78,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Story Scenes/During Scenes/Personal Experiences.unity
     guid: 5d6dcba06e85daa418b186a1cd2d0470
   - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/Education.unity
+    guid: 78f5c713bffe41f48b912999d9f45794
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/CommitAndResp.unity
+    guid: ad68d03ae9ce9344595664be32daf650
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/Recreational.unity
+    guid: 9259ae8a97cbd2c499f7d2f118ad0e79
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/End of WW2.unity
+    guid: 8edbb4f16eed170438df01b792fef11a
+  - enabled: 1
     path: Assets/Scenes/Story Scenes/During Scenes/El Joaquin Article (1).unity
     guid: 6492addbfd1514c4485f7dcf72a5d80d
   - enabled: 1
@@ -86,4 +98,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story Scenes/During Scenes/El Joaquin Article (3).unity
     guid: 553e87aece86ea8488000c33cbdcd58e
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/Rohwer Outpost Article (1).unity
+    guid: 457b58f61c5ce494aa9925552978ee0e
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/Rohwer Outpost Article (2).unity
+    guid: c4942416cec74b9408fc0826460cfbe7
+  - enabled: 1
+    path: Assets/Scenes/Story Scenes/During Scenes/Rohwer Outpost Article (3).unity
+    guid: 91ff122749c47a34eb5c715c84567963
   m_configObjects: {}
