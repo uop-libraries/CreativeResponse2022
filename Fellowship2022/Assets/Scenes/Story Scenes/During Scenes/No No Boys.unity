@@ -869,7 +869,7 @@ MonoBehaviour:
   OffEvents:
     m_PersistentCalls:
       m_Calls: []
-  saveValue: 1
+  saveValue: 0
   switchTag: Switch
   isOn: 0
   invokeAtStart: 0
