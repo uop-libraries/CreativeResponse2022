@@ -10,10 +10,16 @@ public class TitleSlides : MonoBehaviour
     [SerializeField] private Sprite pic1;
     [SerializeField] private Sprite pic2;
     [SerializeField] private Sprite pic3;
+
+    [SerializeField] private float loopInterval;
+
+    [SerializeField] private float imageTransitions;
     // Start is called before the first frame update
     void Start()
     {
         slides.sprite = pic1;
+        loopInterval = 3;
+        imageTransitions = 1;
         StartCoroutine(ChangeImage());
     }
 
@@ -24,21 +30,21 @@ public class TitleSlides : MonoBehaviour
         while (true)
         {
             slides.sprite = pic1;
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(loopInterval);
             slides.CrossFadeAlpha(0,1,false);
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(imageTransitions);
             slides.CrossFadeAlpha(1,1,false);
             slides.sprite = pic2;
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(loopInterval);
             
             slides.CrossFadeAlpha(0,1,false);
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(imageTransitions);
             slides.CrossFadeAlpha(1,1,false);
             slides.sprite = pic3;
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(loopInterval);
             
             slides.CrossFadeAlpha(0,1,false);
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(imageTransitions);
             slides.CrossFadeAlpha(1,1,false);
         }
     }
