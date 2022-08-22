@@ -842,22 +842,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7060101285431768215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7060101285431768217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c781f61efd2b4c43857bee5d24ad65e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Object: {fileID: 7060101285431768217}
-  FadeTime: 1.5
-  WaitTime: 2
-  InorOut: 1
 --- !u!224 &7060101285431768216
 RectTransform:
   m_ObjectHideFlags: 0
@@ -888,7 +872,6 @@ GameObject:
   - component: {fileID: 7060101285431768216}
   - component: {fileID: 7060101285431768213}
   - component: {fileID: 7060101285431768214}
-  - component: {fileID: 7060101285431768215}
   m_Layer: 5
   m_Name: Icon Image
   m_TagString: Untagged
