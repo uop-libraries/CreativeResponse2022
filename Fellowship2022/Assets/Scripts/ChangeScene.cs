@@ -45,6 +45,11 @@ public class ChangeScene : MonoBehaviour
             LastScene = CurrentScene;
             SceneManager.LoadScene("Pacific Weekly");
         }
+        else if (sceneIndex == 20 || sceneIndex == 21 || sceneIndex == 22)
+        {
+            LastScene = CurrentScene;
+            SceneManager.LoadScene("Rohwer");
+        }
         else //everything else
         {
             LastScene = CurrentScene;
@@ -132,18 +137,6 @@ public class ChangeScene : MonoBehaviour
     }
     /// transition to during ///
     
-    public void Load_Splash()
-    {
-        LastScene = CurrentScene;
-        SceneManager.LoadScene("Splash Page");
-    }
-
-    public void Load_Assembly()
-    {
-        LastScene = CurrentScene;
-        SceneManager.LoadScene("Stockton Assembly Center");
-    }
-
     public void Load_Goodbye()
     {
         LastScene = CurrentScene;
@@ -171,9 +164,15 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("El Joaquin Article (3)");
     }
 
-    public void Load_Rohwer()
+    public void Load_No()
     {
         LastScene = CurrentScene;
-        SceneManager.LoadScene("Rohwer");
+        SceneManager.LoadScene("No No Boys");
+    }
+
+    public void Load_PersonalExp()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Personal Experiences");
     }
 }

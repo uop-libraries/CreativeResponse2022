@@ -1318,7 +1318,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3091797913039699233}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Load_ElJoaquin
+        m_MethodName: GoForward
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
