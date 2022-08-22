@@ -8,7 +8,7 @@ public class NoNoInteraction : MonoBehaviour
     [SerializeField] private GameObject context;
     [SerializeField] private GameObject back;
     [SerializeField] private GameObject hamburger;
-    [SerializeField] private GameObject continueButton;
+    //[SerializeField] private GameObject continueButton;
 
     [SerializeField] private SwitchManager switch1;
     [SerializeField] private SwitchManager switch2;
@@ -20,7 +20,7 @@ public class NoNoInteraction : MonoBehaviour
         context.SetActive(false);
         back.SetActive(false);
         hamburger.SetActive(false);
-        continueButton.SetActive(false);
+        //continueButton.SetActive(false);
     }
 
     void FixedUpdate()
@@ -33,7 +33,7 @@ public class NoNoInteraction : MonoBehaviour
             context.SetActive(true);
             back.SetActive(true);
             hamburger.SetActive(true);
-            continueButton.SetActive(true);
+            //continueButton.SetActive(true);
         }
 
     }
