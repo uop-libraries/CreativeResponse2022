@@ -90,6 +90,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Story Scenes/After Scenes/The War Do Be Over.unity
     guid: 5c6b645c94bcc3946ac1ff96968c66c5
   - enabled: 1
+    path: Assets/Scenes/Story Scenes/After Scenes/After War and Camps.unity
+    guid: a59d81d8301f97e488fa2520c91b304a
+  - enabled: 1
     path: Assets/Scenes/Story Scenes/After Scenes/Frank Epilogue.unity
     guid: 1a56b9025c7bdac4fa95f2cdf65855be
   - enabled: 1
