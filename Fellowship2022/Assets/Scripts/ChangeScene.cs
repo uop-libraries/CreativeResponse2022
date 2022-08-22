@@ -233,4 +233,54 @@ public class ChangeScene : MonoBehaviour
         LastScene = CurrentScene;
         SceneManager.LoadScene("Rohwer Outpost Article (3)");
     }
+    
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /// after section ////////////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    public void Load_FrankEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Frank Epilogue");
+    }
+    public void Load_KeiEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Kei Epilogue");
+    }
+    public void Load_MaryEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Mary Epilogue");
+    }
+    public void Load_JamesEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("James Epilogue");
+    }
+    public void Load_ToshioEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Toshio Epilogue");
+    }
+    public void Load_GeorgeEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("George Epilogue");
+    }
+    public void Load_RichardEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Richard Epilogue");
+    }
+    public void Load_MarieEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Marie Epilogue");
+    }
+    public void Load_GrayceEnd()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Grayce Epilogue");
+    }
 }
