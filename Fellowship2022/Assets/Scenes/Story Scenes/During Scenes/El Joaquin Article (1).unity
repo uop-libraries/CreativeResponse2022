@@ -262,7 +262,8 @@ PrefabInstance:
       propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Load_ElJoaquin
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 431964851681749071, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
 --- !u!1 &163429941
 GameObject:

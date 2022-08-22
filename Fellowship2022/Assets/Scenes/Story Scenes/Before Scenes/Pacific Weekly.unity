@@ -489,7 +489,6 @@ GameObject:
   - component: {fileID: 6993176423051594439}
   - component: {fileID: 4322902298687620223}
   - component: {fileID: 229654738627783973}
-  - component: {fileID: 8379347015376558221}
   m_Layer: 5
   m_Name: Icon Image
   m_TagString: Untagged
@@ -2383,20 +2382,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8122347400358761624}
   m_CullTransparentMesh: 1
---- !u!114 &8122347400358761605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8122347400358761624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6e423cd416cbd04e87985e2b9e23b7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Obj: {fileID: 8122347400358761624}
-  DelayTime: 0
 --- !u!1 &8122347400358761624
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,7 +2394,6 @@ GameObject:
   - component: {fileID: 8122347400358761604}
   - component: {fileID: 8122347400358761627}
   - component: {fileID: 8122347400358761626}
-  - component: {fileID: 8122347400358761605}
   m_Layer: 5
   m_Name: Content (1)
   m_TagString: Untagged
@@ -2470,7 +2454,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: M.D. 1942
+  m_text: 1942
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -2504,7 +2488,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2650,20 +2634,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 8122347401320551199}
   TextDelayTime: 0.5
---- !u!114 &8122347401320551194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8122347401320551197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6e423cd416cbd04e87985e2b9e23b7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Obj: {fileID: 8122347401320551197}
-  DelayTime: 0
 --- !u!1 &8122347401320551197
 GameObject:
   m_ObjectHideFlags: 0
@@ -2676,7 +2646,6 @@ GameObject:
   - component: {fileID: 8122347401320551192}
   - component: {fileID: 8122347401320551199}
   - component: {fileID: 8122347401320551193}
-  - component: {fileID: 8122347401320551194}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -3051,19 +3020,3 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8379347015376558221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3169976480405985780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c781f61efd2b4c43857bee5d24ad65e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Object: {fileID: 3169976480405985780}
-  FadeTime: 1.5
-  WaitTime: 2
-  InorOut: 1
