@@ -281,7 +281,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1681209613}
   - component: {fileID: 1681209612}
-  - component: {fileID: 1681209611}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -289,14 +288,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1681209611
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681209610}
-  m_Enabled: 1
 --- !u!20 &1681209612
 Camera:
   m_ObjectHideFlags: 0
@@ -353,6 +344,45 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1766807448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1766807450}
+  - component: {fileID: 1766807449}
+  m_Layer: 0
+  m_Name: AudioListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1766807449
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766807448}
+  m_Enabled: 1
+--- !u!4 &1766807450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766807448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.40479, y: 954.07526, z: -11508.74}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1973084415
 GameObject:
@@ -1550,6 +1580,8 @@ MonoBehaviour:
   pic1: {fileID: 21300000, guid: e5debbf7eba50024ba21bfc0b2fb6cde, type: 3}
   pic2: {fileID: 21300000, guid: 5f1d5402426edbc42bc1a92072555093, type: 3}
   pic3: {fileID: 21300000, guid: ed7ea0e0bc9a5d241a35c88c3d568137, type: 3}
+  loopInterval: 0
+  imageTransitions: 0
 --- !u!1 &7708637961890927296
 GameObject:
   m_ObjectHideFlags: 0
