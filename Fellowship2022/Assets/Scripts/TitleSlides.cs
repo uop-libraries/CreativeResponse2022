@@ -18,7 +18,7 @@ public class TitleSlides : MonoBehaviour
     void Start()
     {
         slides.sprite = pic1;
-        loopInterval = 3;
+        loopInterval = 4;
         imageTransitions = 1;
         StartCoroutine(ChangeImage());
     }
