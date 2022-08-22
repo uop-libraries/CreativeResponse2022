@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 1973084418}
   - component: {fileID: 1973084417}
   m_Layer: 5
-  m_Name: Sample Image (2)
+  m_Name: Slideshow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1526,6 +1526,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7708637961880305828}
+  - component: {fileID: 7708637961880305830}
   m_Layer: 5
   m_Name: Images
   m_TagString: Untagged
@@ -1533,6 +1534,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7708637961880305830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708637961880305829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e9a0fc0b4ca1a468f9fbb1d9a38d2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slides: {fileID: 1973084417}
+  pic1: {fileID: 21300000, guid: e5debbf7eba50024ba21bfc0b2fb6cde, type: 3}
+  pic2: {fileID: 21300000, guid: 5f1d5402426edbc42bc1a92072555093, type: 3}
+  pic3: {fileID: 21300000, guid: ed7ea0e0bc9a5d241a35c88c3d568137, type: 3}
 --- !u!1 &7708637961890927296
 GameObject:
   m_ObjectHideFlags: 0
