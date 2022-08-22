@@ -2259,7 +2259,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1834220530487314041}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: GoForward
+        m_MethodName: Load_ExecOrder
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

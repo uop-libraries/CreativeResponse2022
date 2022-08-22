@@ -324,4 +324,16 @@ public class ChangeScene : MonoBehaviour
         LastScene = CurrentScene;
         SceneManager.LoadScene("George Akimoto");
     }
+
+    public void Load_ExecOrder()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Executive Order 9066");
+    }
+
+    public void Load_RohwerOutpost()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("Rohwer Outpost");
+    }
 }
