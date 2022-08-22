@@ -24,7 +24,7 @@ public class ChangeScene : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Current Scene Index: " + sceneIndex);
+        //Debug.Log("Current Scene Index: " + sceneIndex);
     }
     
     //NOTE: DO NOT USE THIS METHOD FOR THE BACK BUTTON ON OPTIONS. ONLY USE THIS FOR ANYTHING BUT OPTIONS
@@ -317,5 +317,11 @@ public class ChangeScene : MonoBehaviour
     public void ExitApp()
     {
         Application.Quit();
+    }
+
+    public void Load_George()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("George Akimoto");
     }
 }
