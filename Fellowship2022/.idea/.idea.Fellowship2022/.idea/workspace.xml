@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TitleSlides.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TitleSlides.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Japanese Club.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/Before Scenes/Japanese Club.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoNoInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ContinueAudio.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2DV0UQLFhiLaOtV8AgrpxkGXBvR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,7 +90,7 @@
       <workItem from="1661132723638" duration="5236000" />
       <workItem from="1661185041357" duration="1000" />
       <workItem from="1661190631078" duration="658000" />
-      <workItem from="1661191509896" duration="923000" />
+      <workItem from="1661191509896" duration="4650000" />
     </task>
     <servers />
   </component>
