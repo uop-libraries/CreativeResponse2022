@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 1030150811}
   m_Layer: 0
   m_Name: AudioListener
-  m_TagString: Untagged
+  m_TagString: Agony
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,6 +456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boombox: {fileID: 1030150812}
+  boomSound: {fileID: 0}
   duration: 5
 --- !u!82 &1030150812
 AudioSource:

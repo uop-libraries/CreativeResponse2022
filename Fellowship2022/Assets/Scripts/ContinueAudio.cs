@@ -7,12 +7,16 @@ using UnityEngine;
 public class ContinueAudio : MonoBehaviour
 {
     public AudioSource boombox;
-    public AudioListener boomSound;
     public float duration;
    
    private void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
+   {
+       GameObject[] musicObj = GameObject.FindGameObjectsWithTag("Agony");
+       if (musicObj.Length > 1)
+       {
+           Destroy(this.gameObject);
+       }
+       DontDestroyOnLoad(this.gameObject);
     }
    private void Start()
     {
