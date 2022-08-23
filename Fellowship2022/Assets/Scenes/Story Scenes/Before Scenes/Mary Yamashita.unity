@@ -475,7 +475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0002346, y: -9608}
+  m_AnchoredPosition: {x: -0.42285, y: -9804}
   m_SizeDelta: {x: 1080, y: 1271.727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &317075263
@@ -1270,7 +1270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Time: 2.5
-  distance: 9.5
+  distance: 9.3
   BioContent: {fileID: 1932394182}
 --- !u!1 &158576308107200345
 GameObject:
