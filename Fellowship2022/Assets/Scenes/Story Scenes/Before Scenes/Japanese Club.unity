@@ -134,9 +134,10 @@ GameObject:
   - component: {fileID: 10355121}
   - component: {fileID: 10355120}
   - component: {fileID: 10355119}
+  - component: {fileID: 10355122}
   m_Layer: 0
   m_Name: EventSystem
-  m_TagString: Untagged
+  m_TagString: Meet the Students
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -189,6 +190,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &10355122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10355118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae846fb4af27e004eae9e97a695bcc4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newTrack: {fileID: 8300000, guid: a4a4012742b223f48b682ae124711d07, type: 3}
 --- !u!1001 &243191238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -308,7 +322,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1764923871}
   - component: {fileID: 1764923870}
-  - component: {fileID: 1764923869}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -316,14 +329,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1764923869
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764923868}
-  m_Enabled: 1
 --- !u!20 &1764923870
 Camera:
   m_ObjectHideFlags: 0
