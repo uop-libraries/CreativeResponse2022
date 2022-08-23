@@ -434,7 +434,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1056805741}
   - component: {fileID: 1056805740}
-  - component: {fileID: 1056805739}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -442,14 +441,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1056805739
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056805738}
-  m_Enabled: 1
 --- !u!20 &1056805740
 Camera:
   m_ObjectHideFlags: 0
@@ -799,6 +790,7 @@ GameObject:
   - component: {fileID: 2138661141}
   - component: {fileID: 2138661140}
   - component: {fileID: 2138661139}
+  - component: {fileID: 2138661142}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -854,6 +846,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2138661142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138661138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae846fb4af27e004eae9e97a695bcc4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newTrack: {fileID: 8300000, guid: d4bc18fdfe9c97d48a7485a086365b40, type: 3}
 --- !u!1 &1142548223098122076
 GameObject:
   m_ObjectHideFlags: 0

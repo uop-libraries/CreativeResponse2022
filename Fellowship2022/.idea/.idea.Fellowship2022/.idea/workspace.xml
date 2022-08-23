@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TitleSlides.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TitleSlides.cs" afterDir="false" />
-    </list>
+    <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +22,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeAudio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoNoInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ContinueAudio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AdjustVolume.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2DV0UQLFhiLaOtV8AgrpxkGXBvR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,7 +89,8 @@
       <workItem from="1661132723638" duration="5236000" />
       <workItem from="1661185041357" duration="1000" />
       <workItem from="1661190631078" duration="658000" />
-      <workItem from="1661191509896" duration="923000" />
+      <workItem from="1661191509896" duration="5245000" />
+      <workItem from="1661270991703" duration="11762000" />
     </task>
     <servers />
   </component>
