@@ -456,6 +456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boombox: {fileID: 1030150812}
+  duration: 5
 --- !u!82 &1030150812
 AudioSource:
   m_ObjectHideFlags: 0

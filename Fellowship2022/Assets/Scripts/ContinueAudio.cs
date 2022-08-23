@@ -7,6 +7,8 @@ using UnityEngine;
 public class ContinueAudio : MonoBehaviour
 {
     public AudioSource boombox;
+    public AudioListener boomSound;
+    public float duration;
    
    private void Awake()
     {
@@ -19,8 +21,25 @@ public class ContinueAudio : MonoBehaviour
 
    public void ChangeBGM(AudioClip ssong)
    {
+       boombox.DOFade(0, duration);
        boombox.Stop();
        boombox.clip = ssong;
+       boombox.Play();
+       boombox.DOFade(1, duration);
+   }
+
+   public void AdjustVolume(float volumeLevel)
+   {
+       boombox.volume = volumeLevel;
+   }
+
+   public void PauseAudio()
+   {
+       boombox.Pause();
+   }
+
+   public void PlayAudio()
+   {
        boombox.Play();
    }
 }

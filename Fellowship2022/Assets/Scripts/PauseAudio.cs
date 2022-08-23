@@ -2,14 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeAudio : MonoBehaviour
+public class PauseAudio : MonoBehaviour
 {
-    public AudioClip newTrack;
     private ContinueAudio theThing;
     // Start is called before the first frame update
+
     void Awake()
     {
         theThing = FindObjectOfType<ContinueAudio>();
-        theThing.ChangeBGM(newTrack);
+    }
+
+    public void PlayBop()
+    {
+        theThing.PlayAudio();
+    }
+
+    public void StopBop()
+    {
+        theThing.PauseAudio();
     }
 }

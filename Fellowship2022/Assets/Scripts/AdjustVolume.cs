@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeAudio : MonoBehaviour
+public class AdjustVolume : MonoBehaviour
 {
-    public AudioClip newTrack;
     private ContinueAudio theThing;
-    // Start is called before the first frame update
+    public float volumeIntensity;
+
     void Awake()
     {
         theThing = FindObjectOfType<ContinueAudio>();
-        theThing.ChangeBGM(newTrack);
+        theThing.AdjustVolume(volumeIntensity);
     }
 }
