@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PacificWeeklyFade : MonoBehaviour
 {
-    public GameObject PacificWeeklyWhole, PacificWeeklyCover, BioCover;
+    public GameObject PacificWeeklyWhole, PacificWeeklyCover, BioCover, JustString;
     private Image PacificWeeklyCoverImage, BioCoverImage;
     private Color TempColor;
     void Start()
@@ -39,5 +39,6 @@ public class PacificWeeklyFade : MonoBehaviour
         BioCoverImage.CrossFadeAlpha(0, 1f, false);
         yield return new WaitForSeconds(1);
         BioCover.SetActive(false);
+        JustString.SetActive(false);
     }
 }
