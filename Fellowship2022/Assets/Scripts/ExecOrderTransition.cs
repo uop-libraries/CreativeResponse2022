@@ -20,7 +20,7 @@ public class ExecOrderTransition : MonoBehaviour
     public void BeginTransition()
     {
         BioContent.transform.DOMove(new Vector2(x, (distance * y)), Time);
-
+        Debug.Log(distance * y);
         StartCoroutine(ExampleCoroutine());
     }
 
