@@ -7,7 +7,7 @@ using UnityEngine;
 public class ContinueAudio : MonoBehaviour
 {
    public string tagSpecification;
-   private AudioSource boombox;
+   public AudioSource boombox;
    private AudioClip currentBop;
 
    private void Awake()
@@ -32,42 +32,8 @@ public class ContinueAudio : MonoBehaviour
        }
         DontDestroyOnLoad(this.gameObject);
     }
-
    private void Start()
     {
         boombox.Play();
     }
-
-   private void ChangeBop()
-   {
-       if (GameObject.FindGameObjectWithTag("Meet the Students"))
-       {
-           tagSpecification = "Meet the Students";
-           boombox = this.GetComponent<AudioSource>();
-           currentBop = Resources.Load("Bops/Meet the Students Music") as AudioClip;
-           Debug.Log("Now playing: " + currentBop);
-           boombox.clip = currentBop;
-       }
-       else if (GameObject.FindGameObjectWithTag("Assembly Center"))
-       {
-           tagSpecification = "Assembly Center";
-           boombox = this.GetComponent<AudioSource>();
-           currentBop = Resources.Load("Bops/Meet the Students Music") as AudioClip;
-           Debug.Log("Now playing: " + currentBop);
-           boombox.clip = currentBop;
-       }
-       else if (GameObject.FindGameObjectWithTag("War is Over"))
-       {
-           tagSpecification = "War is Over";
-           boombox = this.GetComponent<AudioSource>();
-           currentBop = Resources.Load("Bops/Meet the Students Music") as AudioClip;
-           Debug.Log("Now playing: " + currentBop);
-           boombox.clip = currentBop;
-       }
-   }
-
-   private void FixedUpdate()
-   {
-       ChangeBop();
-   }
 }

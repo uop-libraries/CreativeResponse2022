@@ -352,6 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagSpecification: Meet the Students
+  boombox: {fileID: 1218014409}
 --- !u!82 &1218014409
 AudioSource:
   m_ObjectHideFlags: 0
