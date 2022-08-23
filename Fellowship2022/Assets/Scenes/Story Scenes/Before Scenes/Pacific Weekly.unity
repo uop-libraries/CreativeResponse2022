@@ -259,45 +259,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1971829081419112018, guid: c78c8a8bf970ba1448edb03db9c3b723, type: 3}
   m_PrefabInstance: {fileID: 1411585610}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2010897281
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2010897283}
-  - component: {fileID: 2010897282}
-  m_Layer: 0
-  m_Name: AudioListener
-  m_TagString: Meet the Students
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &2010897282
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2010897281}
-  m_Enabled: 1
---- !u!4 &2010897283
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2010897281}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.40479, y: 954.07526, z: -11508.74}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2027237200
 PrefabInstance:
   m_ObjectHideFlags: 0
