@@ -1902,7 +1902,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40af8a3c6c4bece479ad196e674b69f5, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1928,8 +1928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43, y: 521}
-  m_SizeDelta: {x: 633.1392, y: 402.307}
+  m_AnchoredPosition: {x: 0, y: 476.694}
+  m_SizeDelta: {x: 684.4631, y: 434.9191}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5229305659580000231
 GameObject:
@@ -1949,7 +1949,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &5229305659942400973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2061,9 +2061,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "A large complex of tar-paper buildings including mess halls, barracks,
-    showers, and an incomplete school and hospital are surrounded by wire fences.
-    Each family\u2019s 12 foot by 14 foot unit has an overhead bar for curtains,
-    rough lumber walls, cement flooring, and a stove. Residents scavenge wooden scraps
+    showers, an incomplete school, and hospital are surrounded by wire fences. Each
+    family\u2019s 12 foot by 14 foot unit has an overhead bar for curtains, rough
+    lumber walls, cement flooring, and a stove. Residents scavenge wooden scraps
     to fashion basic furniture, but these rooms are little more than sleeping quarters.
     With no privacy, the incarcerated cope by pursuing various activities."
   m_isRightToLeft: 0
@@ -2092,8 +2092,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2164,7 +2164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000014405, y: -65}
+  m_AnchoredPosition: {x: -0.000014405, y: 80}
   m_SizeDelta: {x: 850, y: 692.316}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5229305660187392331
@@ -2573,8 +2573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000010967, y: 754}
-  m_SizeDelta: {x: 717.33, y: 105}
+  m_AnchoredPosition: {x: 0, y: 749}
+  m_SizeDelta: {x: 351.7183, y: 101.567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5229305660899622606
 GameObject:

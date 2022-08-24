@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="" />
+    <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/El Joaquin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/El Joaquin.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/End of WW2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/End of WW2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Goodbye Assembly.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Goodbye Assembly.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Rohwer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Rohwer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +98,7 @@
       <workItem from="1661190631078" duration="658000" />
       <workItem from="1661191509896" duration="5245000" />
       <workItem from="1661270991703" duration="12355000" />
+      <workItem from="1661321411812" duration="143000" />
     </task>
     <servers />
   </component>
