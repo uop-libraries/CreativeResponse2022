@@ -336,4 +336,10 @@ public class ChangeScene : MonoBehaviour
         LastScene = CurrentScene;
         SceneManager.LoadScene("Rohwer Outpost");
     }
+
+    public void Load_WarSplash()
+    {
+        LastScene = CurrentScene;
+        SceneManager.LoadScene("The War Do Be Over");
+    }
 }
