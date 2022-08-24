@@ -438,8 +438,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 5806313430941960649}
-  - {fileID: 1571821731}
   - {fileID: 1178428268}
+  - {fileID: 1571821731}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentEfx: {fileID: 8300000, guid: 945ccc256ce410b40b16dc8c154a3089, type: 3}
-  setVolume: 0.5
+  setVolume: 0.3
 --- !u!1 &1112761879
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,7 +922,7 @@ RectTransform:
   - {fileID: 1812181475}
   - {fileID: 1767724977}
   m_Father: {fileID: 362169720}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
