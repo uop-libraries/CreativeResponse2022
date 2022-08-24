@@ -750,6 +750,42 @@ PrefabInstance:
       propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Load_ElJoaquinArticle2
       objectReference: {fileID: 0}
+    - target: {fileID: 7029433526794396259, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433526794396259, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.g
+      value: 0.32941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433526794396259, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.r
+      value: 0.26666668
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527224801592, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527224801592, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.g
+      value: 0.32941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527224801592, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.r
+      value: 0.26666668
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527253625316, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527253625316, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.g
+      value: 0.32941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527253625316, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.r
+      value: 0.26666668
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 431964851681749071, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
