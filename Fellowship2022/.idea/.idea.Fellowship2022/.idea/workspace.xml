@@ -7,6 +7,7 @@
     <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseAudio.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AdjustVolume.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AdjustVolume.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,7 @@
       <workItem from="1661321411812" duration="143000" />
       <workItem from="1661325440334" duration="2935000" />
       <workItem from="1661354037414" duration="44000" />
-      <workItem from="1661355424040" duration="69000" />
+      <workItem from="1661354746204" duration="36000" />
     </task>
     <servers />
   </component>
