@@ -1,7 +1,7 @@
 ---
 name: Suggesting Changes Template
 about: For listing needed feature changes (aka click this one)
-title: "[Insert Problem Name Here]"
+title: "[Name of the page][Describe Issue here]"
 labels: bug
 assignees: cfines, Prot0ast
 
