@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afcce275-a198-4a1b-8c1a-6d5c745a311d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/El Joaquin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/El Joaquin.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/End of WW2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/End of WW2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Goodbye Assembly.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Goodbye Assembly.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Rohwer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Rohwer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Story Scenes/During Scenes/Stockton Assembly Center.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fellowship2022/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +96,8 @@
       <workItem from="1661191509896" duration="5245000" />
       <workItem from="1661270991703" duration="12355000" />
       <workItem from="1661321411812" duration="143000" />
+      <workItem from="1661325440334" duration="2935000" />
+      <workItem from="1661354037414" duration="44000" />
     </task>
     <servers />
   </component>

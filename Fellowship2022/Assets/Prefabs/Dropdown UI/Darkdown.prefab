@@ -1013,7 +1013,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 5037669318541034613}
           m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-          m_MethodName: Load_EndWar
+          m_MethodName: Load_WarSplash
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
