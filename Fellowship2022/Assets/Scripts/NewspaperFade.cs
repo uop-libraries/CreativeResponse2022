@@ -12,7 +12,7 @@ using DG.Tweening;
 public class NewspaperFade : MonoBehaviour
 {
     public GameObject FadedBackground, ArticleButton, ContinueButton, BackButton, PonchoObj;
-    public TMP_Text contenttext, bttntext, bttntext2, metadata;
+    public TMP_Text SubTitleText, TitleText, contenttext, bttntext, bttntext2, metadata;
     private Image BGimg, ArtBttnimg, CntBttnimg, BckBttnimg, PonchoImg;
     //private float temp;
     private Color tempColor;
@@ -36,6 +36,8 @@ public class NewspaperFade : MonoBehaviour
         bttntext.alpha = 0.0f;
         bttntext2.alpha = 0.0f;
         metadata.alpha = 0.0f;
+        TitleText.alpha = 0.0f;
+        SubTitleText.alpha = 0.0f;
     }
     public void ShowArticleText()
     {
@@ -49,6 +51,8 @@ public class NewspaperFade : MonoBehaviour
         bttntext.alpha = 255f;
         bttntext2.alpha = 255f;
         metadata.alpha = 255.0f;
+        TitleText.alpha = 255f;
+        SubTitleText.alpha = 255f;
     }
 
     public void HideArticleText()
@@ -63,5 +67,7 @@ public class NewspaperFade : MonoBehaviour
         bttntext.alpha = 0f;
         bttntext2.alpha = 0f;
         metadata.alpha = 0.0f;
+        TitleText.alpha = 0.0f;
+        SubTitleText.alpha = 0.0f;
     }
 }
