@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChangeAudio : MonoBehaviour
 {
     public AudioClip newTrack;
-    private ContinueAudio theThing;
+    private static ContinueAudio theThing;
     // Start is called before the first frame update
     void Awake()
     {
