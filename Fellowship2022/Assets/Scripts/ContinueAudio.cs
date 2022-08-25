@@ -46,7 +46,12 @@ public class ContinueAudio : MonoBehaviour
    {
        boombox.Play();
    }
-   
+
+   public string GetCurrentTrack()
+   {
+       return boombox.clip.ToString();
+   }
+
    public IEnumerator StartFade(float duration, float targetVolume)
    {
        float currentTime = 0;
