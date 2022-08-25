@@ -218,6 +218,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pacific Weekly Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2371.499
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15.7496
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
 --- !u!224 &59485629 stripped
@@ -325,8 +333,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000010468, y: -770.81}
-  m_SizeDelta: {x: 1080, y: 800}
+  m_AnchoredPosition: {x: -0.000015707, y: -821}
+  m_SizeDelta: {x: 1080, y: 898.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &203017212
 MonoBehaviour:
@@ -739,8 +747,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 15.5161}
-  m_SizeDelta: {x: 1080, y: 2371.0322}
+  m_AnchoredPosition: {x: 0, y: 0.6415}
+  m_SizeDelta: {x: 1080, y: 2400.7812}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940068998
 MonoBehaviour:
@@ -1360,8 +1368,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -770}
-  m_SizeDelta: {x: 1080, y: 800}
+  m_AnchoredPosition: {x: -0.000015707, y: -821}
+  m_SizeDelta: {x: 1080, y: 898.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649616564
 MonoBehaviour:
