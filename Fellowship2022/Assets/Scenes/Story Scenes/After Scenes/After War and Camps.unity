@@ -5157,8 +5157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000014405, y: 342}
-  m_SizeDelta: {x: 850, y: 364.9543}
+  m_AnchoredPosition: {x: 2.594, y: 384.80118}
+  m_SizeDelta: {x: 855.1881, y: 279.352}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4395042294577352475
 GameObject:
@@ -5208,9 +5208,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: All seven of our students from the University of the Pacific fought to
-    right the wrongs done to them and their family. Select one of the below buttons
-    to learn more of their lives.
+  m_text: All nine of our students from the University of the Pacific fought to right
+    the wrongs done to them and their family. Select one of the below buttons to
+    learn more of their lives.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -5237,8 +5237,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

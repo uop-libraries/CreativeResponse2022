@@ -237,6 +237,270 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5037669318541034612, guid: 56d868c119d75094a832b62ff4810d3f, type: 3}
   m_PrefabInstance: {fileID: 143491557}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &216666985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2116180332}
+    m_Modifications:
+    - target: {fileID: 76440133940919028, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f5ae54710c9813d499d1c44e751c597b, type: 3}
+    - target: {fileID: 76440134550922329, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_text
+      value: "\u201CTwenty-one students are now enrolled in the beginners\u2019 piano
+        class, which is held Tuesday and Thursday morning at the Edex Hall under
+        the instruction of Miss Grayce Kaneda. The pupils have already learned to
+        read musical notes and play simple pieces. Progress is slow since there is
+        only one piano in the Center\u201D "
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440134550922329, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440134550922331, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 932.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440134550922331, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 507.0599
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440134550922331, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 23.449
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440134550922331, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 114.9701
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440135569289070, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 371.121
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440135569289070, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 632.526
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440135569289070, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 344.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440135569289070, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 518.76825
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965636, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_text
+      value: 'El Joaquin Vol II, No. 6, July 29, 1942 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965636, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_fontSize
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965636, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965636, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965639, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 901.8804
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965639, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 85.8928
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965639, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.9402
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965639, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -210.8419
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707505353714, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e9bde60003b93cf41b1a132d3d527a6a, type: 3}
+    - target: {fileID: 1855227707505353717, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 743.523
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707505353717, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 573.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707505353717, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 146.873
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707505353717, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -423.124
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707863070241, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1688801529}
+    - target: {fileID: 1855227707863070241, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Load_ElJoaquinArticle3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990015450574622370, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: TitleText
+      value: 
+      objectReference: {fileID: 1751746965}
+    - target: {fileID: 2990015450574622370, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: SubTitleText
+      value: 
+      objectReference: {fileID: 407876856}
+    - target: {fileID: 2990015450574622373, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Name
+      value: El Joaquin Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2340
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5199026268143970955, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: clickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Load_ElJoaquinArticle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433526794396259, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433526794396259, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.g
+      value: 0.32941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433526794396259, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.r
+      value: 0.26666668
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527224801592, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527224801592, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.g
+      value: 0.32941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527224801592, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.r
+      value: 0.26666668
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527253625316, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527253625316, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.g
+      value: 0.32941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029433527253625316, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_Color.r
+      value: 0.26666668
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 431964851681749071, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+--- !u!224 &216666986 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3729835301984365291, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+  m_PrefabInstance: {fileID: 216666985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &216666987 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 76440134353255608, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+  m_PrefabInstance: {fileID: 216666985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &407876854
 GameObject:
   m_ObjectHideFlags: 0
