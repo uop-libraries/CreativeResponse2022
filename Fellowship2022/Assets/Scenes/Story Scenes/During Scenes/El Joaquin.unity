@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentEfx: {fileID: 8300000, guid: 96453d79866e7654980f87edd6b16e02, type: 3}
-  setVolume: 0.9
+  setVolume: 0.2
 --- !u!1 &703446752
 GameObject:
   m_ObjectHideFlags: 0
