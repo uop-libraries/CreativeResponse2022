@@ -40,7 +40,7 @@ public class PreTitleScreenFade : MonoBehaviour
         PacificWeeklyCoverImage.CrossFadeAlpha(0.5f, 1f, false);
         PacificWeeklyWhole.SetActive(false);
         BioCoverImage.CrossFadeAlpha(0, 1f, false);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         BioCover.SetActive(false);
         //JustString.SetActive(false);
     }
