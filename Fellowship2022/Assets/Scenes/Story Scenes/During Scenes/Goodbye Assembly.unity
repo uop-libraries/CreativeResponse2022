@@ -1468,7 +1468,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: After five months of incarceration, the Japanese Americans held at the
     Stockton Fairgrounds Assembly Center are being moved to permanent camps. Rohwer,
-    Arkansas is the destination for the Pacific students.
+    Arkansas is the destination for the incarcerees.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -1495,8 +1495,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
