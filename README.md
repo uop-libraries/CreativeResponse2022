@@ -17,4 +17,4 @@ the viewer. Before the app concludes events of the past are linked to the presen
 how students now can change their present actions and attitudes for a better future. A link 
 to a Google Form is available recording the answers anonymously for the aforementioned questions. 
 
-In order to navigate the app, users are prompted to click buttons to continue to the next page. 
+In order to navigate the app, users are prompted to click buttons to continue to the desired page. 
