@@ -385,6 +385,7 @@ GameObject:
   - component: {fileID: 1499094842}
   - component: {fileID: 1499094841}
   - component: {fileID: 1499094844}
+  - component: {fileID: 1499094845}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -453,6 +454,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newTrack: {fileID: 8300000, guid: 6a5d13f3d13c6004d8ce69647c2aedd9, type: 3}
+--- !u!114 &1499094845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499094840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e045f4bf2d98640bf9d76191b916fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioDuration: 3
 --- !u!212 &2315448957945925448
 SpriteRenderer:
   m_ObjectHideFlags: 0

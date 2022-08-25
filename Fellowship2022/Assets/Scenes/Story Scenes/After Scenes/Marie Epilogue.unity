@@ -1782,12 +1782,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Marie Mizutani, from Walnut Grove, was sent to the Merced Assembly Center,
+  m_text: Marie Mizutani, from Walnut Grove, was sent to the Merced Assembly Center,
     away from her Stockton classmates, and then to the Amache Concentration Camp
     in Colorado. On leave from Amache in 1945, Marie worked in Detroit as a city
-    clerk. She then enrolled at Colorado State College for Education. After the war,Marie
-    moved to Oakland, California where she directed the choir for West Tenth Methodist
-    Church. '
+    clerk. She then enrolled at Colorado State College for Education. After the war,
+    Marie moved to Oakland, California where she directed the choir for West Tenth
+    Methodist Church.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}

@@ -1196,9 +1196,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "George Akimoto married Dorothy Yoshiye Kaneshige during his 3rd and final
     year at Rohwer. The couple moved to Los Angeles where George, a renowned commercial
-    artist, made movie posters for films like Silent Running, The Wild Party, and
-    At the Earth's Core. His book Lil Dan\u2019l:One year in a Relocation Centerrecognizes
-    the Japanese American struggle in the concentration camps."
+    artist, made movie posters for films like <i>Silent Running</i>, <i>The Wild
+    Party</i>, and <i>At the Earth's Core</i>. His book <i>Lil Dan\u2019l: One year
+    in a Relocation Center</i> recognizes the Japanese American struggle in the concentration
+    camps."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
