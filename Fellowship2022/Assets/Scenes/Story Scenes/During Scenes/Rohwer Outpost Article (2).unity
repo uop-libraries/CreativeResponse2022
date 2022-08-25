@@ -227,7 +227,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: The Rohwer Outpost, Vol. lll. No. 23 September 18. 1943
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -254,8 +254,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65
-  m_fontSizeBase: 65
+  m_fontSize: 47
+  m_fontSizeBase: 47
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -320,8 +320,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92.508, y: -239.79}
-  m_SizeDelta: {x: 664.9846, y: 122.2089}
+  m_AnchoredPosition: {x: -165.14035, y: -312.81042}
+  m_SizeDelta: {x: 519.72, y: 111.8329}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &403247610
 GameObject:
@@ -773,6 +773,14 @@ PrefabInstance:
         out that seven of the ten centers encountered obstacles \u2026.  Learning
         the new land, lack of sufficient equipment, construction of proper farm buildings
         and reclamation of forest and desert lands were the leading deterrent factors.\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 746684797999553080, guid: 7e7db420ad1489845947325d112b067b, type: 3}
+      propertyPath: m_fontSize
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 746684797999553080, guid: 7e7db420ad1489845947325d112b067b, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 746684797999553080, guid: 7e7db420ad1489845947325d112b067b, type: 3}
       propertyPath: m_HorizontalAlignment

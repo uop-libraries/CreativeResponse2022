@@ -1154,13 +1154,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Educated Nisei, including Richard Doi and Hiroshi Uyehara (Grayce\u2019s
-    future husband), teach primary school in makeshift, sparsely decorated classrooms.
-    Students sit on wooden benches and teachers make do with few supplies.For some
-    young adults whose college journeys have been interrupted, the National Japanese
-    American Student Relocation Committee will help them gain admission to colleges
-    outside the military zone. Other adults\u2014primarily Issei\u2014fill their
-    time with classes in English, Ikebanaand calligraphy (traditional Japanese arts),
-    and arts and crafts."
+    future husband), teach primary school in makeshift classrooms. Students sit on
+    wooden benches and teachers make do. For some young adults whose college journeys
+    have been interrupted, the National Japanese American Student Relocation Committee
+    helps them attend colleges outside the military zone. Other adults\u2014primarily
+    Issei\u2014take classes in English and traditional Japanese arts and crafts."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -1187,8 +1185,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
