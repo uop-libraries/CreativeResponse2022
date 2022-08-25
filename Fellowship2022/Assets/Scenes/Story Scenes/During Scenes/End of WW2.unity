@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 54459619}
   - component: {fileID: 54459618}
   - component: {fileID: 54459617}
-  - component: {fileID: 54459616}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -162,20 +161,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.0007324219, y: 515.9907}
   m_SizeDelta: {x: 361.791, y: 8.2885}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &54459616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54459614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6e423cd416cbd04e87985e2b9e23b7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Obj: {fileID: 54459614}
-  DelayTime: 0
 --- !u!114 &54459617
 MonoBehaviour:
   m_ObjectHideFlags: 0
