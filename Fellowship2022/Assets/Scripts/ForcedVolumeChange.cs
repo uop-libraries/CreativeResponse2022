@@ -10,10 +10,14 @@ public class ForcedVolumeChange : MonoBehaviour
     {
         theThing = FindObjectOfType<ContinueAudio>();
     }
+    
+    //TODO send help plz
 
     public void ForceMute()
     {
-        theThing.AdjustVolume(0.01f);
+        Debug.Log("muting audio");
+        theThing.AdjustVolume(0f);
+        Debug.Log("volume is now: " + theThing.GetComponent<AudioSource>().volume);
     }
 
     public void ForceUnmute()
