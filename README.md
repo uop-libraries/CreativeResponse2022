@@ -1,4 +1,5 @@
 # CreativeResponse2022
+
 When the app is opened, users are received on the title page where they can either
 start their experience or adjust the app to their preference in the settings menu.
 Carefully selected free of use classical music accompanies the viewer. The visuals 
@@ -8,11 +9,9 @@ experiences a slice of their lives on the University of Pacific’s Stockton Cam
 The participant then learns of how drastic Executive Order 9066 was for Japanese American 
 communities, and follows the students as they are forced to leave their homes for assembly 
 centers. Learning of the Stockton Fairgrounds and the Rohwer Concentration Center, the events 
-that shaped the Japanese American community are presented to the viewer. The section 
+that shaped the incarcerated Japanese American community are presented to the viewer. The section 
 regarding redress covers the historic consequence of events and how Pacific students moved 
 beyond this tragedy. A remembrance of 55 University of the Pacific and Stockton Junior College 
-students plays. Before the app concludes events of the past are linked to the present, asking 
+students plays. A montage of lanterns with motifs of each of the nine students are presented to 
+the viewer. Before the app concludes events of the past are linked to the present, asking 
 how students now can change their present actions and attitudes for a better future.
-
-*yes*
-/no
