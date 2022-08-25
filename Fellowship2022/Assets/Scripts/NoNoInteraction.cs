@@ -25,7 +25,7 @@ public class NoNoInteraction : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (switch1.isOn == true || switch2.isOn == true){
+        if (switch1.isOn == true && switch2.isOn == true){
             context.SetActive(true);
             back.SetActive(true);
             hamburger.SetActive(true);
