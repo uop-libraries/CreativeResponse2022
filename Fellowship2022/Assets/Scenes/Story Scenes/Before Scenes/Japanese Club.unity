@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 10355120}
   - component: {fileID: 10355119}
   - component: {fileID: 10355122}
-  - component: {fileID: 10355123}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Meet the Students
@@ -203,21 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae846fb4af27e004eae9e97a695bcc4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newTrack: {fileID: 8300000, guid: a4a4012742b223f48b682ae124711d07, type: 3}
---- !u!114 &10355123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10355118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11978b5e00a50794b977a0f98080faa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentEfx: {fileID: 8300000, guid: b5873543dcb566b41b736b02c8e9bdb9, type: 3}
-  setVolume: 0.5
+  newTrack: {fileID: 8300000, guid: 2421c5fd21656124e999c34221e85504, type: 3}
 --- !u!1001 &243191238
 PrefabInstance:
   m_ObjectHideFlags: 0
