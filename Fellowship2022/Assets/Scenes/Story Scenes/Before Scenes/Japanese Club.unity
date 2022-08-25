@@ -415,6 +415,14 @@ PrefabInstance:
       propertyPath: m_text
       value: JAPANESE CLUB
       objectReference: {fileID: 0}
+    - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2371.9834
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 15.9916
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
 --- !u!1 &647234348
@@ -648,8 +656,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000045776, y: 0}
-  m_SizeDelta: {x: 1080, y: 2340}
+  m_AnchoredPosition: {x: 0.000045776, y: 14.9255}
+  m_SizeDelta: {x: 1080, y: 2369.851}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132039031
 MonoBehaviour:
