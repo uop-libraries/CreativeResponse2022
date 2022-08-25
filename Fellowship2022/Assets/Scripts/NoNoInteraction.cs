@@ -12,8 +12,8 @@ public class NoNoInteraction : MonoBehaviour
 
     [SerializeField] private SwitchManager switch1;
     [SerializeField] private SwitchManager switch2;
-    [SerializeField] private SwitchManager switch3;
-    [SerializeField] private SwitchManager switch4;
+//    [SerializeField] private SwitchManager switch3;
+//    [SerializeField] private SwitchManager switch4;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +25,7 @@ public class NoNoInteraction : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (switch1.isOn == true && switch3.isOn == true ||
-            switch1.isOn == true && switch4.isOn == true ||
-            switch2.isOn == true && switch3.isOn == true ||
-            switch2.isOn == true && switch4.isOn == true)
-        {
+        if (switch1.isOn == true || switch2.isOn == true){
             context.SetActive(true);
             back.SetActive(true);
             hamburger.SetActive(true);
