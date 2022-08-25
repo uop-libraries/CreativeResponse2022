@@ -12,6 +12,7 @@ public class DaIcon : MonoBehaviour
     float x, y;
     private static Vector2 scale;
 
+    // adding small comment for the sake of pushing to upstream, delete this if you see this
     void Start()
     {
         if (!toggle)
