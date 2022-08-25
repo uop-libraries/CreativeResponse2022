@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeAudio : MonoBehaviour
+public class ChangeAudioOnPress : MonoBehaviour
 {
     public AudioClip newTrack;
     private ContinueAudio theThing;
-    // Start is called before the first frame update
-    void Awake()
+
+    public void ChangeAudioFunct()
     {
         theThing = FindObjectOfType<ContinueAudio>();
         Debug.Log("the boombox has:" + theThing.GetCurrentTrack());
@@ -16,6 +16,5 @@ public class ChangeAudio : MonoBehaviour
         {
             theThing.ChangeBGM(newTrack);
         }
-
     }
 }
