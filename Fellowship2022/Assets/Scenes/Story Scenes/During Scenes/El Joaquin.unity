@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentEfx: {fileID: 8300000, guid: 96453d79866e7654980f87edd6b16e02, type: 3}
-  setVolume: 0.9
+  setVolume: 0.2
 --- !u!1 &703446752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,7 +1904,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: The El Joaquin newspaper, produced with the aid of University of the Pacific
     students, provides fresh news to the assembly center residents. George Akimoto
-    creates cartoons including Pancho, Mary Yamashita returns to the familiar position
+    creates comics including Pancho, Mary Yamashita returns to the familiar position
     of editor, and James Doi reports. For four months, El Joaquin records the daily
     life of incarcerated Japanese Americans.
   m_isRightToLeft: 0

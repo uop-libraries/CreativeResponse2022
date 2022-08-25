@@ -634,6 +634,7 @@ GameObject:
   - component: {fileID: 1012721144}
   - component: {fileID: 1012721143}
   - component: {fileID: 1012721146}
+  - component: {fileID: 1012721147}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Assembly Center
@@ -703,6 +704,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentEfx: {fileID: 8300000, guid: 945ccc256ce410b40b16dc8c154a3089, type: 3}
   setVolume: 0.3
+--- !u!114 &1012721147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012721142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae846fb4af27e004eae9e97a695bcc4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newTrack: {fileID: 8300000, guid: 4b1bd15f74898f244977041977b5c401, type: 3}
 --- !u!1 &1112761879
 GameObject:
   m_ObjectHideFlags: 0
