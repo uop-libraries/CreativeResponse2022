@@ -218,6 +218,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pacific Weekly Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2371.499
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15.7496
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
 --- !u!224 &59485629 stripped
@@ -325,8 +333,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000010468, y: -770.81}
-  m_SizeDelta: {x: 1080, y: 800}
+  m_AnchoredPosition: {x: -0.000015707, y: -821}
+  m_SizeDelta: {x: 1080, y: 898.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &203017212
 MonoBehaviour:
@@ -1360,8 +1368,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -770}
-  m_SizeDelta: {x: 1080, y: 800}
+  m_AnchoredPosition: {x: -0.000015707, y: -821}
+  m_SizeDelta: {x: 1080, y: 898.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649616564
 MonoBehaviour:
@@ -2560,6 +2568,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3045095941059864222}
+        m_TargetAssemblyTypeName: ForcedVolumeChange, Assembly-CSharp
+        m_MethodName: ForceMute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hoverEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -2606,6 +2626,7 @@ GameObject:
   - component: {fileID: 3045095941059864208}
   - component: {fileID: 3045095941059864211}
   - component: {fileID: 3045095941059864212}
+  - component: {fileID: 3045095941059864222}
   m_Layer: 5
   m_Name: Button Option (1)
   m_TagString: Untagged
@@ -2613,6 +2634,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3045095941059864222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3045095941059864221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b49a46678ded63498edf4527cf56fc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3045095941253126136
 MonoBehaviour:
   m_ObjectHideFlags: 0

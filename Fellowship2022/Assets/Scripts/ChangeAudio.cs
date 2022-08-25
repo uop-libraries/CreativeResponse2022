@@ -5,11 +5,16 @@ using UnityEngine;
 public class ChangeAudio : MonoBehaviour
 {
     public AudioClip newTrack;
-    private ContinueAudio theThing;
+    private static ContinueAudio theThing;
     // Start is called before the first frame update
     void Awake()
     {
         theThing = FindObjectOfType<ContinueAudio>();
-        theThing.ChangeBGM(newTrack);
+        //Debug.Log( "the boombox has:" + theThing.GetCurrentTrack());
+        //Debug.Log("the newtrack suggested is: " + newTrack);
+        if (theThing.GetCurrentTrack() != newTrack.ToString())
+        {
+            theThing.ChangeBGM(newTrack);
+        }
     }
 }
