@@ -13,7 +13,7 @@ public class ForcedVolumeChange : MonoBehaviour
 
     public void ForceMute()
     {
-        theThing.AdjustVolume(0.01f);
+        theThing.AdjustVolume(0f);
     }
 
     public void ForceUnmute()
