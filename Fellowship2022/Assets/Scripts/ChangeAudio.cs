@@ -10,8 +10,9 @@ public class ChangeAudio : MonoBehaviour
     void Awake()
     {
         theThing = FindObjectOfType<ContinueAudio>();
-        //Debug.Log( "the boombox has:" + theThing.GetCurrentTrack());
-        //Debug.Log("the newtrack suggested is: " + newTrack);
+
+        Debug.Log("the boombox has:" + theThing.GetCurrentTrack());
+        Debug.Log("the newtrack suggested is: " + newTrack);
         if (theThing.GetCurrentTrack() != newTrack.ToString())
         {
             theThing.ChangeBGM(newTrack);
