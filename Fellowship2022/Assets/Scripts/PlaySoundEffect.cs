@@ -8,6 +8,7 @@ public class PlaySoundEffect : MonoBehaviour
     private AudioSource soundEfx;
     public float setVolume;
 
+    //will start immediately
     void Awake()
     {
         soundEfx = gameObject.AddComponent<AudioSource>();
