@@ -13,3 +13,6 @@ regarding redress covers the historic consequence of events and how Pacific stud
 beyond this tragedy. A remembrance of 55 University of the Pacific and Stockton Junior College 
 students plays. Before the app concludes events of the past are linked to the present, asking 
 how students now can change their present actions and attitudes for a better future.
+
+*yes*
+/no
