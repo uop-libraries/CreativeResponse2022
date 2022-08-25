@@ -2184,6 +2184,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1949904290}
   - component: {fileID: 1949904291}
+  - component: {fileID: 1949904293}
+  - component: {fileID: 1949904292}
   m_Layer: 5
   m_Name: SwitchController
   m_TagString: Untagged
@@ -2229,6 +2231,36 @@ MonoBehaviour:
   hamburger: {fileID: 4946122559445806780}
   switch1: {fileID: 630642957}
   switch2: {fileID: 1782073493}
+--- !u!114 &1949904292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949904289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c781f61efd2b4c43857bee5d24ad65e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Object: {fileID: 1949904289}
+  FadeTime: 1.5
+  WaitTime: 2
+  InorOut: 1
+--- !u!114 &1949904293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949904289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e423cd416cbd04e87985e2b9e23b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obj: {fileID: 1949904289}
+  DelayTime: 0
 --- !u!1 &2012327487
 GameObject:
   m_ObjectHideFlags: 0
