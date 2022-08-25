@@ -262,15 +262,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 76440134550922331, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 886
+      value: 932.9
       objectReference: {fileID: 0}
     - target: {fileID: 76440134550922331, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 533
+      value: 507.0599
+      objectReference: {fileID: 0}
+    - target: {fileID: 76440134550922331, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 23.449
       objectReference: {fileID: 0}
     - target: {fileID: 76440134550922331, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 102
+      value: 114.9701
       objectReference: {fileID: 0}
     - target: {fileID: 76440135569289070, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_SizeDelta.x
@@ -293,24 +297,32 @@ PrefabInstance:
       value: 'El Joaquin Vol II, No. 6, July 29, 1942 '
       objectReference: {fileID: 0}
     - target: {fileID: 1855227707451965636, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_fontSize
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965636, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855227707451965636, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1855227707451965639, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 850
+      value: 901.8804
       objectReference: {fileID: 0}
     - target: {fileID: 1855227707451965639, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 122.209
+      value: 85.8928
       objectReference: {fileID: 0}
     - target: {fileID: 1855227707451965639, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -18
+      value: 7.9402
       objectReference: {fileID: 0}
     - target: {fileID: 1855227707451965639, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -229
+      value: -210.8419
       objectReference: {fileID: 0}
     - target: {fileID: 1855227707505353714, guid: 238a51402385fa44eb0d3892bdce4e51, type: 3}
       propertyPath: m_Sprite
