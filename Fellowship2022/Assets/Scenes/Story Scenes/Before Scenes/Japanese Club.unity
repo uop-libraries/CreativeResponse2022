@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 10355120}
   - component: {fileID: 10355119}
   - component: {fileID: 10355122}
-  - component: {fileID: 10355123}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Meet the Students
@@ -203,21 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae846fb4af27e004eae9e97a695bcc4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newTrack: {fileID: 8300000, guid: a4a4012742b223f48b682ae124711d07, type: 3}
---- !u!114 &10355123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10355118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11978b5e00a50794b977a0f98080faa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentEfx: {fileID: 8300000, guid: b5873543dcb566b41b736b02c8e9bdb9, type: 3}
-  setVolume: 0.5
+  newTrack: {fileID: 8300000, guid: 2421c5fd21656124e999c34221e85504, type: 3}
 --- !u!1001 &243191238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -470,8 +455,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: -498}
-  m_SizeDelta: {x: 512.977, y: 48.764}
+  m_AnchoredPosition: {x: 0.0000076294, y: -502}
+  m_SizeDelta: {x: 262.8776, y: 48.764}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1344595208
 MonoBehaviour:
@@ -521,7 +506,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Approach the student...
+  m_text: Approach ...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 566533ab0fb7ccd429e913a1d452e688, type: 2}
   m_sharedMaterial: {fileID: 196661563243393762, guid: 566533ab0fb7ccd429e913a1d452e688, type: 2}
@@ -1309,7 +1294,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Putting up posters?
+  m_text: Marie, putting up posters?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -1686,7 +1671,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Playing the piano?
+  m_text: Grayce, playing the piano?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -2332,7 +2317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Talking to his friends?
+  m_text: James, talking to his friends?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}

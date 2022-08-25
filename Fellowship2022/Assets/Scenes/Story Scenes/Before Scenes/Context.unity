@@ -874,7 +874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae846fb4af27e004eae9e97a695bcc4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newTrack: {fileID: 8300000, guid: e28990fe468d27c438ad179c2df9ee5e, type: 3}
+  newTrack: {fileID: 8300000, guid: d4bc18fdfe9c97d48a7485a086365b40, type: 3}
 --- !u!1 &1142548223098122076
 GameObject:
   m_ObjectHideFlags: 0
