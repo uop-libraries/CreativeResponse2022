@@ -1536,7 +1536,7 @@ MonoBehaviour:
     camps. Most young people have been \u201Cresettled\u201D in new jobs, the military,
     and colleges. Once the rest have jobs and homes, they too will leave Rohwer.
     Many Japanese Americans will return to the west coast to find looted homes and
-    businesses. Community will continue to help them cope as they build new lives"
+    businesses. Community will continue to help them cope as they build new lives."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Camp Rohwer Remains
+  m_text: Last Days at Rohwer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
