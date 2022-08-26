@@ -956,10 +956,16 @@ MonoBehaviour:
     itemIndex: 0
     OnItemSelection:
       m_PersistentCalls:
+        m_Calls: []
+  - itemName: Credits
+    itemIcon: {fileID: 21300000, guid: e55e4ef66043a8747866894761ac06be, type: 3}
+    itemIndex: 0
+    OnItemSelection:
+      m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 5037669318541034613}
           m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-          m_MethodName: Load_Blank
+          m_MethodName: Load_Credits
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
