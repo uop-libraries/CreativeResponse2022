@@ -2,19 +2,40 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class PreTitleScreenFade : MonoBehaviour
 {
-    public GameObject PacificWeeklyWhole, PacificWeeklyCover, BioCover, JustString;
+    public GameObject PacificWeeklyWhole, PacificWeeklyCover, BioCover, JustString, Canvas, Disable, Cover;
     public float timer = 3;
     public float timer2 = 6;
     private Image PacificWeeklyCoverImage, BioCoverImage;
     private Color TempColor;
+    private static bool PlayCheck = false;
+    private PreTitleScreenFade yeh;
     void Start()
     {
-        PacificWeeklyCoverFade();
-        BioCoverFade();
-        StartCoroutine(ExampleCoroutine());
+        try
+        {
+            Canvas.GetComponent<PreTitleScreenFade>();
+            if (PlayCheck)
+            {
+                Disable.SetActive(false);
+                Cover.SetActive(false);
+                yeh.enabled = false;
+            }
+            else
+            {
+                PacificWeeklyCoverFade();
+                BioCoverFade();
+                StartCoroutine(ExampleCoroutine());
+                PlayCheck = true;
+            }
+        }
+        catch (NullReferenceException e)
+        {
+
+        }
     }
 
     void PacificWeeklyCoverFade()

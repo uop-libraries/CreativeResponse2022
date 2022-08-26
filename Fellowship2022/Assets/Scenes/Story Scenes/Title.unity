@@ -1515,6 +1515,9 @@ MonoBehaviour:
   PacificWeeklyCover: {fileID: 287117788}
   BioCover: {fileID: 1102637887}
   JustString: {fileID: 807731606}
+  Canvas: {fileID: 2102802759}
+  Disable: {fileID: 1651998877}
+  Cover: {fileID: 1102637887}
   timer: 3
   timer2: 5
 --- !u!114 &2102802765
@@ -1532,6 +1535,9 @@ MonoBehaviour:
   PacificWeeklyWhole: {fileID: 4836010716597204727}
   PacificWeeklyCover: {fileID: 9092633472115703373}
   JustString: {fileID: 807731606}
+  Canvas: {fileID: 2102802759}
+  Disable: {fileID: 4836010716597204727}
+  Cover: {fileID: 1102637887}
   timer: 3
 --- !u!224 &582666954583408784
 RectTransform:
