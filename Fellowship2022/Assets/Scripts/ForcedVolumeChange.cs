@@ -22,6 +22,12 @@ public class ForcedVolumeChange : MonoBehaviour
 
     public void ForceUnmute()
     {
+        Invoke("ForceUnmuting",3);
+        Debug.Log("volume is now: " + theThing.GetComponent<AudioSource>().volume);
+    }
+
+    private void ForceUnmuting()
+    {
         theThing.AdjustVolume(1);
     }
 }
