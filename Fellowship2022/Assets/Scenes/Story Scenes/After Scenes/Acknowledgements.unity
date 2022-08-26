@@ -949,7 +949,7 @@ MonoBehaviour:
   clickEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1679819272336390358}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: GoForward
         m_Mode: 1
