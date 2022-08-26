@@ -4,7 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using DG.Tweening;
-
+// This fades in assigned gameobjects at different times. Initializes them as invisible and fades the in
+// one after another. A simple thing but it looks pretty nice. Pretty proud.
 public class SplashPageFadeIn : MonoBehaviour
 {
     public GameObject SplashImgObj, ButtonImgObj, StringImgObj;

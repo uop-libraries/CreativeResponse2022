@@ -5,10 +5,12 @@ using TMPro;
 using UnityEngine.UI;
 using DG.Tweening;
 
-// For the newspaper pages of El Joaquin
+// For the newspaper pages of El Joaquin and Rohwer Outpost.
 // shows the user where to tap and it shows the text mayu and george provided (ty)
-// im tired and this is terribly written im sowwy but we prolly dont have to revisit this anyways
-// cause its only on 6 pages
+// im tired and this is terribly written im sowwy.
+// the button to continue to the next page is invisible and can still be tapped on to change scenes if the 
+// user taps in position its at. surely nobody would tap anywhere other than the flashing square button
+// indicating where to tap ...right?
 public class NewspaperFade : MonoBehaviour
 {
     public GameObject FadedBackground, ArticleButton, ContinueButton, BackButton, PonchoObj;
@@ -25,9 +27,13 @@ public class NewspaperFade : MonoBehaviour
         CntBttnimg = ContinueButton.GetComponent<Image>();
         BckBttnimg = BackButton.GetComponent<Image>();
         PonchoImg = PonchoObj.GetComponent<Image>();
-        //temp = ArtBttnimg.color.a;
+
         tempColor = new Color(ArtBttnimg.color.r, ArtBttnimg.color.g, ArtBttnimg.color.b, 0.0f);
+
+        // flash the button on the article the user needs to tap
         ArtBttnimg.DOColor(tempColor, 0.5f).SetLoops(-1, LoopType.Yoyo);
+
+        // initially set everything that pops up when tapping the article button invisible.
         BGimg.CrossFadeAlpha(0.0f, 0.0f, false);
         CntBttnimg.CrossFadeAlpha(0.0f, 0.0f, false);
         BckBttnimg.CrossFadeAlpha(0.0f, 0.0f, false);
@@ -39,6 +45,8 @@ public class NewspaperFade : MonoBehaviour
         TitleText.alpha = 0.0f;
         SubTitleText.alpha = 0.0f;
     }
+    // When the user taps the article button, show everything that was initially set invisible. 
+    // Also dim the background newpaper image to make things easier to read and see.
     public void ShowArticleText()
     {
         BGimg.CrossFadeAlpha(1.0f, 0.0f, false);
@@ -54,7 +62,7 @@ public class NewspaperFade : MonoBehaviour
         TitleText.alpha = 255f;
         SubTitleText.alpha = 255f;
     }
-
+    // When the user taps the back button, hide everything that showed up in ShowArticleText()
     public void HideArticleText()
     {
         BGimg.CrossFadeAlpha(0.0f, 0.0f, false);
