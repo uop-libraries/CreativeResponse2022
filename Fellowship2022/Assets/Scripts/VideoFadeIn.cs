@@ -9,7 +9,6 @@ public class VideoFadeIn : MonoBehaviour
 {
     public GameObject LanternVideoObject;
     private RawImage LanternVideoObjectImage;
-    private Color TempColor, TempColor2;
 
     void Start()
     {
@@ -25,9 +24,10 @@ public class VideoFadeIn : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         LanternVideoObjectImage.CrossFadeAlpha(1, 3f, false);
-        yield return new WaitForSeconds(26);
-        LanternVideoObjectImage.CrossFadeAlpha(0, 2f, false);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(27);
+        LanternVideoObjectImage.CrossFadeAlpha(0, 3f, false);
+        yield return new WaitForSeconds(3);
+        //Debug.Log("done");
         SceneManager.LoadScene("Title");
     }
 }
