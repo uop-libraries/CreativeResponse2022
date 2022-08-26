@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using DG.Tweening;
-
+// The first script written for this project. Unused but kept for rememberance.
+// When assigned to a gameobject, bounces up and down.
+// Or when assigned to Amogus() it only appears on mouse down.
 public class DaIcon : MonoBehaviour
 {
     public GameObject Obj;

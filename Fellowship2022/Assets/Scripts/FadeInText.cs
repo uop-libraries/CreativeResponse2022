@@ -28,13 +28,8 @@ public class FadeInText : MonoBehaviour
         }
         catch (NullReferenceException)
         {
-
+            // i dunno, we should never get here. maybe this try-catch doesnt have to be here in the
+            // first place if i know for sure i will never not assign something to this script
         }
-
-        //var temp = Object.GetComponent<Image>().color;
-        //temp.a = 0.0f;
-        //newColor = Object.GetComponent<Image>().color;
-        //newColor.a = 1.0f;
-        //Object.GetComponent<Image>().DOColor(newColor, 0.5f).SetEase(Ease.Linear);
     }
 }

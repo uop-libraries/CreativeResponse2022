@@ -3,7 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+// This is the splash page that will be revealed when first opening the app.
+// It will reveal itself only once and never again unless the app is reset.
+// This shows the spash pages that tell the user the app has sound.
+// In retrospect I could have had both pre-title-screen splash pages handled in the same script rather than two separate ones (their timers
+// offset from one another to play in a sequence)...
+// I'm sorry I didn't ... its so scuffed in practice... 
+// Also also this is straight up taken from the pacific weekly script, i didnt even bother renaming the variables LOL im sorry....
 
+// comments regarding specific code bits are explaining in PrePreTitleScreenFade.cs, since this is literally copy paste with like a 
+// few more lines LOL
 public class PreTitleScreenFade : MonoBehaviour
 {
     public GameObject PacificWeeklyWhole, PacificWeeklyCover, BioCover, JustString, Canvas, Disable, Cover;

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 // FOR OBJECTS WITH AN IMAGE COMPONENT
 // this script makes the specified object completely transparent on load,
-// and then tweens back to solid visibility.
+// and then tweens back to visibility.
 // (used together with the MoveObjext script)
 public class FadeImage : MonoBehaviour
 {
@@ -36,7 +36,6 @@ public class FadeImage : MonoBehaviour
         }
         else
         {
-            // temp.CrossFadeAlpha(1.0f, 0.0f, false);
             yield return new WaitForSeconds(WaitTime);
             FadeOut();
         }
