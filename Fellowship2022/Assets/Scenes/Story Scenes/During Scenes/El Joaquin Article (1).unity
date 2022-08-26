@@ -1544,6 +1544,7 @@ GameObject:
   - component: {fileID: 76440135496026153}
   - component: {fileID: 76440135496026152}
   - component: {fileID: 76440135496026138}
+  - component: {fileID: 76440135496026150}
   m_Layer: 5
   m_Name: Article Button
   m_TagString: Untagged
@@ -1551,6 +1552,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &76440135496026150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76440135496026149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bb566dcb106f44798cbaae27511730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentEfx: {fileID: 8300000, guid: 96453d79866e7654980f87edd6b16e02, type: 3}
+  setVolume: 0.2
 --- !u!114 &76440135496026152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1674,6 +1689,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 76440135496026150}
+        m_TargetAssemblyTypeName: PlaySFXOnPress, Assembly-CSharp
+        m_MethodName: PlaySFXOnPressFunct
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hoverEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1714,6 +1741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 76440135690484035}
+  - component: {fileID: 76440135690484036}
   m_Layer: 5
   m_Name: Buttons
   m_TagString: Untagged
@@ -1743,6 +1771,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -16.1528}
   m_SizeDelta: {x: 1080, y: 2372.3057}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &76440135690484036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76440135690484034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bb566dcb106f44798cbaae27511730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentEfx: {fileID: 0}
+  setVolume: 0
 --- !u!224 &1205573746128903489
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2331,7 +2373,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Vol. I, No. 1, May 30, 1942 '
+  m_text: 'El Joaquin
+
+    May 30, 1942 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -2479,7 +2523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 363, y: -472.49976}
+  m_AnchoredPosition: {x: 128, y: -391}
   m_SizeDelta: {x: 515.27, y: 490.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1855227707562116278

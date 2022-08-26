@@ -521,7 +521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000013351, y: -0.63673}
+  m_AnchoredPosition: {x: 0.0015869, y: 31.648}
   m_SizeDelta: {x: 1080, y: 2403.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603234723
@@ -1787,11 +1787,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3677059503983238870, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00030682
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3677059503983238870, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.80716
+      value: 0.000031114
       objectReference: {fileID: 0}
     - target: {fileID: 3677059503983238870, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2159,9 +2159,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5084021452834096192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b49a46678ded63498edf4527cf56fc2, type: 3}
+  m_Script: {fileID: 11500000, guid: b9e045f4bf2d98640bf9d76191b916fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioDuration: 1
+  targetVolume: 0
 --- !u!114 &5084021452834096201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2213,8 +2215,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 5084021452834096193}
-        m_TargetAssemblyTypeName: ForcedVolumeChange, Assembly-CSharp
-        m_MethodName: ForceMute
+        m_TargetAssemblyTypeName: FadeAudio, Assembly-CSharp
+        m_MethodName: fadeAudioToVal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2355,7 +2357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -600}
+  m_AnchoredPosition: {x: 0, y: -750}
   m_SizeDelta: {x: 755, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5084021452892501285

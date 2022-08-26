@@ -295,7 +295,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Rohwer Outpost, Vol. lll No. 36 November 3, 1943
+  m_text: 'The Rohwer Outpost
+
+    November 3, 1943'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -1492,6 +1494,7 @@ GameObject:
   - component: {fileID: 746684799154418299}
   - component: {fileID: 746684799154418298}
   - component: {fileID: 746684799154418248}
+  - component: {fileID: 746684799154418297}
   m_Layer: 5
   m_Name: Article Button
   m_TagString: Untagged
@@ -1520,6 +1523,20 @@ RectTransform:
   m_AnchoredPosition: {x: 155.23517, y: 172.65588}
   m_SizeDelta: {x: 631.2243, y: 934.5678}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &746684799154418297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746684799154418295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bb566dcb106f44798cbaae27511730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentEfx: {fileID: 8300000, guid: 96453d79866e7654980f87edd6b16e02, type: 3}
+  setVolume: 0.2
 --- !u!114 &746684799154418298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1613,6 +1630,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2462900610796016564}
         m_TargetAssemblyTypeName: NewspaperFade, Assembly-CSharp
         m_MethodName: ShowArticleText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 746684799154418297}
+        m_TargetAssemblyTypeName: PlaySFXOnPress, Assembly-CSharp
+        m_MethodName: PlaySFXOnPressFunct
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2496,7 +2525,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 275, y: -483}
+  m_AnchoredPosition: {x: 192, y: -446}
   m_SizeDelta: {x: 447.896, y: 447.8923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363543946934451940
@@ -2571,7 +2600,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92.508, y: 416.01}
+  m_AnchoredPosition: {x: -92.508, y: 394}
   m_SizeDelta: {x: 664.9846, y: 122.2089}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363543946988084690

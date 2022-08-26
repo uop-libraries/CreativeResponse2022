@@ -227,7 +227,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Rohwer Outpost, Vol. lll. No. 23 September 18. 1943
+  m_text: 'The Rohwer Outpost
+
+    September 18, 1943'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -1066,6 +1068,7 @@ GameObject:
   - component: {fileID: 746684798312229934}
   - component: {fileID: 746684798312229935}
   - component: {fileID: 746684798312229917}
+  - component: {fileID: 746684798312229923}
   m_Layer: 5
   m_Name: Article Button
   m_TagString: Untagged
@@ -1073,6 +1076,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &746684798312229923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746684798312229922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bb566dcb106f44798cbaae27511730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentEfx: {fileID: 8300000, guid: 96453d79866e7654980f87edd6b16e02, type: 3}
+  setVolume: 0.2
 --- !u!222 &746684798312229928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1100,6 +1117,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2462900609356598753}
         m_TargetAssemblyTypeName: NewspaperFade, Assembly-CSharp
         m_MethodName: ShowArticleText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 746684798312229923}
+        m_TargetAssemblyTypeName: PlaySFXOnPress, Assembly-CSharp
+        m_MethodName: PlaySFXOnPressFunct
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1619,9 +1648,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\u201CSince my last visit in May, Rowher has begun a hog farm, improved
-    it irrigation program and started a cannery\u201D \u2026. But he pointed out
+    \nit irrigation program and started a cannery\u201D \u2026. But he pointed out
     that seven of the ten centers encountered obstacles \u2026.  Learning the new
-    land, lack of sufficient equipment, construction of proper farm buildings and
+    \nland, lack of sufficient equipment, construction of proper farm buildings and
     reclamation of forest and desert lands were the leading deterrent factors.\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -1895,7 +1924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 276, y: -525}
+  m_AnchoredPosition: {x: 208, y: -497}
   m_SizeDelta: {x: 485.63, y: 397.0435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1363543945697861815
