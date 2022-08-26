@@ -311,7 +311,7 @@ public class ChangeScene : MonoBehaviour
     public void Load_Credits()
     {
         LastScene = CurrentScene;
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene("Scenes/Story Scenes/After Scenes/Credits");
     }
 
     public void ExitApp()
