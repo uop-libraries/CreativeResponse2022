@@ -4,21 +4,20 @@ using UnityEngine;
 
 public class PlaySoundEffect : MonoBehaviour
 {
-    [SerializeField] private AudioClip currentEfx;
-    private AudioSource soundEfx;
-    public float setVolume;
+    private SFXAudioMain soundEfx;
+    public AudioClip effectToPlay;
+    public float volume;
 
     //will start immediately
     void Awake()
     {
-        soundEfx = gameObject.AddComponent<AudioSource>();
-        soundEfx.clip = currentEfx;
+        soundEfx = FindObjectOfType<SFXAudioMain>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        soundEfx.volume = setVolume;
-        soundEfx.PlayOneShot(soundEfx.clip);
+        soundEfx.setVolume(volume);
+        soundEfx.PlayAudio(effectToPlay);
     }
 }
