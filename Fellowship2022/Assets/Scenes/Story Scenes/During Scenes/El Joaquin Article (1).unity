@@ -1564,8 +1564,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81bb566dcb106f44798cbaae27511730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentEfx: {fileID: 8300000, guid: 96453d79866e7654980f87edd6b16e02, type: 3}
-  setVolume: 0.2
+  effectToPlay: {fileID: 8300000, guid: 96453d79866e7654980f87edd6b16e02, type: 3}
+  volume: 0.2
 --- !u!114 &76440135496026152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1783,8 +1783,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81bb566dcb106f44798cbaae27511730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentEfx: {fileID: 0}
-  setVolume: 0
+  effectToPlay: {fileID: 0}
+  volume: 0
 --- !u!224 &1205573746128903489
 RectTransform:
   m_ObjectHideFlags: 0

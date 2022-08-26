@@ -1364,8 +1364,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11978b5e00a50794b977a0f98080faa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentEfx: {fileID: 8300000, guid: 026efe78590eb50459aefcd3f65bc478, type: 3}
-  setVolume: 0.9
+  effectToPlay: {fileID: 8300000, guid: 026efe78590eb50459aefcd3f65bc478, type: 3}
+  volume: 0.9
 --- !u!224 &1290403853 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2350552335093307149, guid: 383635a232ca7324da50a4b52d6251ad, type: 3}

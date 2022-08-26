@@ -514,8 +514,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11978b5e00a50794b977a0f98080faa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentEfx: {fileID: 8300000, guid: 4a0e06afefa104c4cae9365facdf0dc8, type: 3}
-  setVolume: 0.25
+  effectToPlay: {fileID: 8300000, guid: 4a0e06afefa104c4cae9365facdf0dc8, type: 3}
+  volume: 0.25
 --- !u!1 &1938439334
 GameObject:
   m_ObjectHideFlags: 0
