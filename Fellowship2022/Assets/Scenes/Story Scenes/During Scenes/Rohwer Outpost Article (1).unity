@@ -295,7 +295,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Rohwer Outpost, Vol. lll No. 36 November 3, 1943
+  m_text: 'The Rohwer Outpost
+
+    November 3, 1943'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -2496,7 +2498,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 275, y: -483}
+  m_AnchoredPosition: {x: 192, y: -446}
   m_SizeDelta: {x: 447.896, y: 447.8923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363543946934451940
@@ -2571,7 +2573,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92.508, y: 416.01}
+  m_AnchoredPosition: {x: -92.508, y: 394}
   m_SizeDelta: {x: 664.9846, y: 122.2089}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363543946988084690

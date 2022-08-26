@@ -1589,9 +1589,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: After five months of incarceration, the Japanese Americans held at the
+  m_text: "After five months of incarceration, \nthe Japanese Americans held at the
     Stockton Fairgrounds Assembly Center are being moved to permanent camps. Rohwer,
-    Arkansas is the destination for the incarcerees.
+    Arkansas is the destination for the incarcerees."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
