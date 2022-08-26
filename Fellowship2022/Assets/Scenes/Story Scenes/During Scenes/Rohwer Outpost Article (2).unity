@@ -1068,6 +1068,7 @@ GameObject:
   - component: {fileID: 746684798312229934}
   - component: {fileID: 746684798312229935}
   - component: {fileID: 746684798312229917}
+  - component: {fileID: 746684798312229923}
   m_Layer: 5
   m_Name: Article Button
   m_TagString: Untagged
@@ -1075,6 +1076,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &746684798312229923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746684798312229922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bb566dcb106f44798cbaae27511730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentEfx: {fileID: 8300000, guid: 96453d79866e7654980f87edd6b16e02, type: 3}
+  setVolume: 0.2
 --- !u!222 &746684798312229928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1102,6 +1117,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2462900609356598753}
         m_TargetAssemblyTypeName: NewspaperFade, Assembly-CSharp
         m_MethodName: ShowArticleText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 746684798312229923}
+        m_TargetAssemblyTypeName: PlaySFXOnPress, Assembly-CSharp
+        m_MethodName: PlaySFXOnPressFunct
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -2568,9 +2568,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3045095941059864222}
-        m_TargetAssemblyTypeName: ForcedVolumeChange, Assembly-CSharp
-        m_MethodName: ForceMute
+      - m_Target: {fileID: 3045095941059864223}
+        m_TargetAssemblyTypeName: FadeAudio, Assembly-CSharp
+        m_MethodName: fadeAudioToVal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2627,6 +2627,7 @@ GameObject:
   - component: {fileID: 3045095941059864211}
   - component: {fileID: 3045095941059864212}
   - component: {fileID: 3045095941059864222}
+  - component: {fileID: 3045095941059864223}
   m_Layer: 5
   m_Name: Button Option (1)
   m_TagString: Untagged
@@ -2646,6 +2647,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b49a46678ded63498edf4527cf56fc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3045095941059864223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3045095941059864221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e045f4bf2d98640bf9d76191b916fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioDuration: 1
+  targetVolume: 0
 --- !u!114 &3045095941253126136
 MonoBehaviour:
   m_ObjectHideFlags: 0
