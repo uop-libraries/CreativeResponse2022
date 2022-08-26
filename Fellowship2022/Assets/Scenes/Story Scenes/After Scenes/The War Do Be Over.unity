@@ -375,7 +375,7 @@ MonoBehaviour:
   clickEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3263155969041790551}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: GoForward
         m_Mode: 1
@@ -1024,6 +1024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioDuration: 3
+  targetVolume: 0
 --- !u!212 &2315448957945925448
 SpriteRenderer:
   m_ObjectHideFlags: 0
