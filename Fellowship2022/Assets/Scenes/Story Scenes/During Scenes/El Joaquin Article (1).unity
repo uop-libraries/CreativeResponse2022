@@ -2373,7 +2373,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Vol. I, No. 1, May 30, 1942 '
+  m_text: 'El Joaquin
+
+    May 30, 1942 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -2521,7 +2523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 363, y: -472.49976}
+  m_AnchoredPosition: {x: 128, y: -391}
   m_SizeDelta: {x: 515.27, y: 490.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1855227707562116278

@@ -533,6 +533,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1011314754665036600, guid: 07a75ea3902d0e1429fecc566726dc8f, type: 3}
+      propertyPath: m_text
+      value: "Among the 500 incarcerees being removed from California is the Kaneda
+        family.The headline \u201CDestination Arkansas\u201D warns them to pack what
+        they can for the 3-day journey to Rohwer."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011314754665036600, guid: 07a75ea3902d0e1429fecc566726dc8f, type: 3}
       propertyPath: m_fontSize
       value: 60
       objectReference: {fileID: 0}
