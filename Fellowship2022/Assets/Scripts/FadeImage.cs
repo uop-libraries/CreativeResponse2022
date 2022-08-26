@@ -16,10 +16,12 @@ public class FadeImage : MonoBehaviour
     // True = Fade In
     // False = Fade Out
     public bool InorOut = true;
-    private Image temp;
+    //private Image temp;
+    private Image temp2;
 
     private void Start()
     {
+        temp2 = Object.GetComponent<Image>();
         // for buttons (the text of the buttons are not affected by this script, add the FadeInText with this too.)
         StartCoroutine(ExampleCoroutine());
     }
@@ -27,11 +29,11 @@ public class FadeImage : MonoBehaviour
 
     IEnumerator ExampleCoroutine()
     {
-        temp = Object.GetComponent<Image>();
+        //temp = Object.GetComponent<Image>();
 
         if (InorOut)
         {
-            temp.CrossFadeAlpha(0.0f, 0.0f, false);
+            temp2.CrossFadeAlpha(0.0f, 0.0f, false);
             FadeIn();
         }
         else
@@ -44,11 +46,11 @@ public class FadeImage : MonoBehaviour
 
     private void FadeIn()
     {
-        temp.CrossFadeAlpha(1.0f, FadeTime, false);
+        temp2.CrossFadeAlpha(1.0f, FadeTime, false);
     }
 
     private void FadeOut()
     {
-        temp.CrossFadeAlpha(0.0f, FadeTime, false);
+        temp2.CrossFadeAlpha(0.0f, FadeTime, false);
     }
 }
