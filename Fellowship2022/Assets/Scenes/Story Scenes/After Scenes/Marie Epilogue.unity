@@ -1989,10 +1989,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: Marie Mizutani, from Walnut Grove, was sent to the Merced Assembly Center,
     away from her Stockton classmates, and then to the Amache Concentration Camp
-    in Colorado. On leave from Amache in 1945, Marie worked in Detroit as a city
-    clerk. She then enrolled at Colorado State College for Education. After the war,
-    Marie moved to Oakland, California where she directed the choir for West Tenth
-    Methodist Church.
+    in Colorado. She then enrolled at Colorado State College for Education. After
+    the war, Marie moved to Oakland, California where she directed the choir for
+    West Tenth Methodist Church. She was awarded a Bachelor of Music degree, posthumous
+    honoris causa from Pacific in 2012.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d67e812bae7028458f38673430d713b, type: 2}
   m_sharedMaterial: {fileID: -7323048294140644681, guid: 7d67e812bae7028458f38673430d713b, type: 2}
@@ -2105,7 +2105,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -441}
+  m_AnchoredPosition: {x: 0, y: -474}
   m_SizeDelta: {x: 828.5205, y: 364.9543}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3270839127607995062
