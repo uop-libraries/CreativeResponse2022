@@ -1364,15 +1364,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11978b5e00a50794b977a0f98080faa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentEfx: {fileID: 8300000, guid: 026efe78590eb50459aefcd3f65bc478, type: 3}
-  setVolume: 0.9
---- !u!1001 &1556718175
+  effectToPlay: {fileID: 8300000, guid: 026efe78590eb50459aefcd3f65bc478, type: 3}
+  volume: 0.9
+--- !u!1001 &1561246506
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 658596130651490720}
     m_Modifications:
+    - target: {fileID: 5037669316976859209, guid: 56d868c119d75094a832b62ff4810d3f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5037669318048518470, guid: 56d868c119d75094a832b62ff4810d3f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1471,10 +1475,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56d868c119d75094a832b62ff4810d3f, type: 3}
---- !u!224 &1556718176 stripped
+--- !u!224 &1561246507 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5037669318541034612, guid: 56d868c119d75094a832b62ff4810d3f, type: 3}
-  m_PrefabInstance: {fileID: 1556718175}
+  m_PrefabInstance: {fileID: 1561246506}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2033392308
 GameObject:
@@ -1714,7 +1718,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 8817662541617985530}
-  - {fileID: 1556718176}
+  - {fileID: 1561246507}
   m_Father: {fileID: 658596130624419278}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

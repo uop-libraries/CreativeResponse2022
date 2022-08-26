@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class PlaySFXOnPress : MonoBehaviour
 {
-    [SerializeField] private AudioClip currentEfx;
-    private AudioSource soundEfx;
-    public float setVolume;
+    private SFXAudioMain soundEfx;
+    public AudioClip effectToPlay;
+    public float volume;
 
     void Awake()
     {
-        soundEfx = gameObject.AddComponent<AudioSource>();
-        soundEfx.clip = currentEfx;
+        soundEfx = FindObjectOfType<SFXAudioMain>();
     }
 
     public void PlaySFXOnPressFunct()
     {
-        soundEfx.volume = setVolume;
-        soundEfx.PlayOneShot(soundEfx.clip);
+        soundEfx.setVolume(volume);
+        soundEfx.PlayAudio(effectToPlay);
     }
 }
