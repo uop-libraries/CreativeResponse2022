@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
-
+// This is like the same as FadeImage.cs but with a RawImage rather than just an Image variable type. Initializes invisible,
+// fades in, then fades out.
 public class VideoFadeIn : MonoBehaviour
 {
     public GameObject LanternVideoObject;
