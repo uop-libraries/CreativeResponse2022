@@ -10,17 +10,28 @@ public class OptionsMenu : MonoBehaviour
     public AudioMixer Mixer;
     private GameObject musicToggle;
     private GameObject sfxToggle;
-    private bool audioState = true;
+    private bool musicState = true;
     private bool sfxState = true;
     private float currVolume;
     private static float on = 0.0f;
     private static float off = -80.0f;
 
+    void Awake()
+    {
+        musicToggle = GameObject.Find("Toggle - Music");
+        sfxToggle = GameObject.Find("Toggle - SFX");
+        reloadAudioState();
+
+        musicToggle.GetComponent<Toggle>().isOn = getMusicState();
+        sfxToggle.GetComponent<Toggle>().isOn = getSoundState();
+    }
+
     public bool getMusicState()
     {
         reloadAudioState();
-        return audioState;
+        return musicState;
     }
+
     public bool getSoundState()
     {
         reloadAudioState();
@@ -32,11 +43,11 @@ public class OptionsMenu : MonoBehaviour
         Mixer.GetFloat("MusicMasterVol", out currVolume);
         if (currVolume == on)
         {
-            audioState = true;
+            musicState = true;
         }
         else if (currVolume == off)
         {
-            audioState = false;
+            musicState = false;
         }
 
         Mixer.GetFloat("SFXMasterVol", out currVolume);
@@ -50,35 +61,22 @@ public class OptionsMenu : MonoBehaviour
         }
     }
 
-    void Awake()
-    {
-        musicToggle = GameObject.Find("Toggle - Test");
-        sfxToggle = GameObject.Find("Toggle - SFX");
-        reloadAudioState();
-
-        musicToggle.GetComponent<Toggle>().isOn = getMusicState();
-        sfxToggle.GetComponent<Toggle>().isOn = getSoundState();
-
-        //DontDestroyOnLoad(this.gameObject);
-    }
-
     void Start()
     {
-        //Debug.Log("The music switch is: " + this.gameObject.GetComponent<Toggle>().isOn);
-        //Debug.Log("But the music playing is: " + audioState);
+        //reloadAudioState();
     }
 
     public void toggleMusicEnabled()
     {
-        if (audioState)
+        if (musicState)
         {
             Mixer.SetFloat("MusicMasterVol", -80.0f);
-            audioState = false;
+            musicState = false;
         }
         else
         {
             Mixer.SetFloat("MusicMasterVol", 0.0f);
-            audioState = true;
+            musicState = true;
         }
     }
 
