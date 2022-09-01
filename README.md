@@ -26,11 +26,13 @@ via the Google Play Store/App Store respectively. The links for them are down be
 Screenshots:
 ------------
 ### TitleScreen
-*insert screenshot here*
+![image](https://user-images.githubusercontent.com/56521346/187844607-5ca4e7a1-ac22-41d4-8df6-23b706ceadaf.png)
 ### Branching Narrative
-*insert screenshot here*
+![image](https://user-images.githubusercontent.com/56521346/187844720-3d9ac6fd-f5f5-48d8-b551-94dff8c8dabe.png)
 ### Interactions
-*insert two screenshots here*
+![image](https://user-images.githubusercontent.com/56521346/187844755-fe8e07b9-b706-4cd4-abea-b828403d1cb4.png)
+![image](https://user-images.githubusercontent.com/56521346/187844781-16e9ccfa-3be7-4b94-b576-765d986a0450.png)
+
 
 Disclaimers & Sources:
 ----------------------
