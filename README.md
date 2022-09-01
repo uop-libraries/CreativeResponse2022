@@ -1,20 +1,38 @@
-# CreativeResponse2022
+brought to you by the CreativeResponse2022 team
+# Kizuna: Bonds Beyond Incarceration
 
-When the app is opened, users are received on the title page where they can either
-start their experience or adjust the app to their preference in the settings menu.
-Carefully selected classical music and sound effects accompanies the app pages. The visuals 
-are primarily handmade digital art for the app in conjunction with historical photography. 
-The text narrates the stories of nine Pacific students in the third person as the user 
-experiences a slice of their lives on the University of Pacific’s Stockton Campus. 
-The participant then learns of how drastic Executive Order 9066 was for Japanese American 
-communities, and follows the students as they are forced to leave their homes for assembly 
-centers. Learning of the Stockton Fairgrounds and the Rohwer Concentration Center, the events 
-that shaped the incarcerated Japanese American community are presented to the viewer. The section 
-regarding redress covers the historic consequence of events and how Pacific students moved 
-beyond this tragedy. A remembrance of 55 University of the Pacific and Stockton Junior College 
-students plays. A montage of lanterns with motifs of each of the nine students are presented to 
-the viewer. Before the app concludes events of the past are linked to the present, asking 
-how students now can change their present actions and attitudes for a better future. A link 
-to a Google Form is available recording the answers anonymously for the aforementioned questions. 
+## About this app
+This app tells the stories of the 55 University of the Pacific Japanese American Students who were
+incarcerated by the Executive Order 9066. 
 
-In order to navigate the app, users are prompted to click buttons to continue to the desired page. 
+Key Features:
+-------------
+- Interactive text
+- Dialogue
+- Branching Story Paths
+- Audio Cues
+- Historically Accurate Information
+- Locally Sourced Images
+- Custom Artwork
+
+How to get:
+----------
+This app is compatitible with all Android or IOS mobile devices and can be downloaded 
+via the Google Play Store/App Store respectively. The links for them are down below:
+
+- Google Play Store (Android): *insert link here*
+- App Store (IOS): *insert link here*
+
+Screenshots:
+------------
+### TitleScreen
+*insert screenshot here*
+### Branching Narrative
+*insert screenshot here*
+### Interactions
+*insert two screenshots here*
+
+Disclaimers & Sources:
+----------------------
+All photos are locally sourced from the Holt-Atherton Collection, Caesar Chavez Library, and Densho Digital Repository
+https://docs.google.com/document/d/1MoBXKbPHSb-h4FT1AXt41VjHR9aAazOKoSFkyzsMuig/edit?usp=sharing
