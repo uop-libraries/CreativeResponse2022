@@ -456,8 +456,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -940}
-  m_SizeDelta: {x: 1080, y: 464}
+  m_AnchoredPosition: {x: 8.647, y: -940}
+  m_SizeDelta: {x: 1885.877, y: 464}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &782300502
 MonoBehaviour:
@@ -523,6 +523,14 @@ PrefabInstance:
     - target: {fileID: 377761541182756672, guid: 07a75ea3902d0e1429fecc566726dc8f, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 266
+      objectReference: {fileID: 0}
+    - target: {fileID: 692061281168394873, guid: 07a75ea3902d0e1429fecc566726dc8f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.633453
+      objectReference: {fileID: 0}
+    - target: {fileID: 692061281168394873, guid: 07a75ea3902d0e1429fecc566726dc8f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1093
       objectReference: {fileID: 0}
     - target: {fileID: 1011314753771319308, guid: 07a75ea3902d0e1429fecc566726dc8f, type: 3}
       propertyPath: m_Transition
@@ -613,6 +621,10 @@ PrefabInstance:
     - target: {fileID: 5744654767042574271, guid: 07a75ea3902d0e1429fecc566726dc8f, type: 3}
       propertyPath: m_Name
       value: During Template Rohwer Train
+      objectReference: {fileID: 0}
+    - target: {fileID: 5744654767052737494, guid: 07a75ea3902d0e1429fecc566726dc8f, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07a75ea3902d0e1429fecc566726dc8f, type: 3}

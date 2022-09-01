@@ -416,12 +416,20 @@ PrefabInstance:
       value: JAPANESE CLUB
       objectReference: {fileID: 0}
     - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1908.291
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2371.9834
+      value: 2501.715
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.99
       objectReference: {fileID: 0}
     - target: {fileID: 8449718935512695038, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 15.9916
+      value: 6.012
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73451bb73d92a1841810dd7cc1553c20, type: 3}
@@ -656,8 +664,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000045776, y: -8.457801}
-  m_SizeDelta: {x: 1080, y: 2416.6177}
+  m_AnchoredPosition: {x: -2.495, y: -5.963}
+  m_SizeDelta: {x: 1913.281, y: 2571.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132039031
 MonoBehaviour:
@@ -3453,8 +3461,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5838204672898515741}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -540.0209, y: -1200.0018, z: 0}
-  m_LocalScale: {x: 4.7390766, y: 10.3064575, z: 1}
+  m_LocalPosition: {x: -540.1625, y: -1200.0018, z: 0}
+  m_LocalScale: {x: 8.232237, y: 10.3064575, z: 1}
   m_Children: []
   m_Father: {fileID: 6213453318663934969}
   m_RootOrder: 0
@@ -3521,7 +3529,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1080, y: 2400}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
