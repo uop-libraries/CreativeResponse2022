@@ -20,8 +20,8 @@ How to get:
 This app is compatitible with all Android or IOS mobile devices and can be downloaded 
 via the Google Play Store/App Store respectively. The links for them are down below:
 
-- Google Play Store (Android): *insert link here*
-- App Store (IOS): *insert link here*
+- Google Play Store [Android](https://play.google.com/store/apps/details?id=com.UniversityofthePacificLibraryFellowship.KizunaBondsBeyondIncarceration)
+- App Store [IOS](https://apps.apple.com/us/app/kizuna-beyond-incarceration/id1644430712)
 
 Screenshots:
 ------------
